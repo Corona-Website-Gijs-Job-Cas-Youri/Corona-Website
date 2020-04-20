@@ -7,9 +7,7 @@
 </head>
 <body>
     
-dit is een test.
-Gijs
+dit is een test van de backend.
 
-job
 </body>
 </html>
