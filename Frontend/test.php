@@ -8,7 +8,7 @@
 <body>
     
 dit is een test.
-Gijs. dit is 
+Gijs
 
 </body>
 </html>
