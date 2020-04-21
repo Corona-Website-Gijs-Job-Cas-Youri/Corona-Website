@@ -52,7 +52,7 @@
         </form>
       </div>
       <div id="content">
-          <p class="bezigp">
+          <p>
           <h1>Wat te doen tijdens quarantaine</h1>
           Verveelt uw zich tijdens quarantaine veroorzaakt door de momemtele uitbreek van covid 19.<br>
           Dan zijn hier uw mogelijke dingen om uw bezigheden:<br>
@@ -62,6 +62,7 @@
           
           <ul>
           <li>Touwtje springen</li>
+          
           <li>Opdrukken</li>
           <li>Planken</li>
           <li>Hardlopen</li>
