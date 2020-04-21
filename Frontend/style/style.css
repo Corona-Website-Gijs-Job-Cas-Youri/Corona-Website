@@ -151,7 +151,7 @@ ul#menu li a
   text-align: center;
   color: #000;
   text-decoration: none;
-  background: #E0E0E0;} 
+  background: rgb(190, 190, 190);} 
 
 ul#menu li.selected a, ul#menu li.selected a:hover
 { background: #FFF;
