@@ -20,6 +20,7 @@
       <div id="menubar">
         <ul id="menu">
           <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="selected"><a href="index.php">Home</a></li>
           <li><a href="bezigheden.php">Bezigheden</a></li>
           <li><a href="besmetting.php">Besmetting</a></li>
           <li><a href="webshop.php">Webshop</a></li>
