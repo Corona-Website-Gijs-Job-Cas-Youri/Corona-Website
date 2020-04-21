@@ -7,7 +7,7 @@ html
 
 body
 { font: normal .80em trebuchet ms, sans-serif;
-  background: #EEE;
+  background: rgb(216, 216, 216);
   color: #5D5D5D;}
 
 p
@@ -111,13 +111,14 @@ ol li
   color: #FFF;}
 
 #logo h2
-{ font-size: 120%;
+{ font-size: 126%;
+  font-weight: 1000;
   padding: 4px 0 0 0;
-  color: #A8AA94;}
+  color: #2DB8CD;}
 
 #logo h1, #logo h1 a, #logo h1 a:hover 
 { padding: 22px 0 0 0;
-  color: #FFF;
+  color: #db0404;
   text-decoration: none;}
 
 #logo h1 a .logo_colour
