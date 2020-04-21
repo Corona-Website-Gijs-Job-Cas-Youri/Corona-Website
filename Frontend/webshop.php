@@ -15,8 +15,8 @@
       <div id="logo">
         <div id="logo_text">
           <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="index.php">simple<span class="logo_colour">_light</span></a></h1>
-          <h2>Simple. Contemporary. Website Template.</h2>
+          <h1><a href="index.php">Covid<span class="logo_colour">_Info</a></h1>
+          <h2>Blijf Thuis, Verveel Je Niet!</h2>
         </div>
       </div>
       <div id="menubar">
@@ -33,7 +33,7 @@
     </div>
     <div id="site_content">
     <div class="sidebar">
-        <h1>LAATSTE NIEUWS</h1>
+        <h1>Laatste Nieuws</h1>
         <h5>21-4-2020</h5>
         <p>Er zijn bijna geen landen meer waar er geen Covid 19 is, toch blijven mensen naar buiten gaan.<br /><a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">lees meer</a></p>
         <h1>STATISTIEKEN</h1>
