@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>simple_light - contact us</title>
+  <title>simple_light</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
@@ -13,11 +13,9 @@
   <div id="main">
     <div id="header">
       <div id="logo">
-        <div id="logo_text">
-          <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="index.php">simple<span class="logo_colour">_light</span></a></h1>
-          <h2>Simple. Contemporary. Website Template.</h2>
-        </div>
+        <!-- class="logo_colour", allows you to change the colour of the text -->
+        <h1><a href="index.php">simple<span class="logo_colour">_light</span></a></h1>
+        <h2>Simple. Contemporary. Website Template.</h2>
       </div>
       <div id="menubar">
         <ul id="menu">
@@ -26,8 +24,8 @@
           <li><a href="examples.php">Examples</a></li>
           <li><a href="page.php">A Page</a></li>
           <li><a href="another_page.php">Another Page</a></li>
-          <li class="selected"><a href="contact.php">Contact Us</a></li>
-          <li><a href="info.php">informatie</a></li>
+          <li><a href="contact.php">Contact Us</a></li>
+          <li class="selected"><a href="info.php">informatie</a></li>
         </ul>
       </div>
     </div>
@@ -53,17 +51,18 @@
         </form>
       </div>
       <div id="content">
-        <h1>Contact Us</h1>
-        <p>Below is an example of how a contact form might look with this template:</p>
-        <form action="#" method="post">
-          <div class="form_settings">
-            <p><span>Name</span><input class="contact" type="text" name="your_name" value="" /></p>
-            <p><span>Email Address</span><input class="contact" type="text" name="your_email" value="" /></p>
-            <p><span>Message</span><textarea class="contact textarea" rows="8" cols="50" name="your_enquiry"></textarea></p>
-            <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="contact_submitted" value="submit" /></p>
-          </div>
-        </form>
-        <p><br /><br />NOTE: A contact form such as this would require some way of emailing the input to an email address.</p>
+        <h1>Welcome to the simple_light template</h1>
+        <p>This standards compliant, simple, fixed width website template is released as an 'open source' design (under a <a href="http://creativecommons.org/licenses/by/3.0">Creative Commons Attribution 3.0 Licence</a>), which means that you are free to download and use it for anything you want (including modifying and amending it). All I ask is that you leave the 'design from HTML5webtemplates.co.uk' link in the footer of the template, but other than that...</p>
+        <p>This template is written entirely in <strong>HTML5</strong> and <strong>CSS</strong>, and can be validated using the links in the footer.</p>
+        <p>You can view more free HTML5 web templates <a href="http://www.html5webtemplates.co.uk">here</a>.</p>
+        <p>This template is a fully functional 5 page website, with an <a href="examples.php">examples</a> page that gives examples of all the styles available with this design.</p>
+        <h2>Browser Compatibility</h2>
+        <p>This template has been tested in the following browsers:</p>
+        <ul>
+          <li>Internet Explorer 8</li>
+          <li>FireFox 3</li>
+          <li>Google Chrome 13</li>
+        </ul>
       </div>
     </div>
     <div id="footer">

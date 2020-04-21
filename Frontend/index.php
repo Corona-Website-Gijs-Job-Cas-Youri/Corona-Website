@@ -25,6 +25,7 @@
           <li><a href="page.php">A Page</a></li>
           <li><a href="another_page.php">Another Page</a></li>
           <li><a href="contact.php">Contact Us</a></li>
+          <li><a href="info.php">informatie</a></li>
         </ul>
       </div>
     </div>
