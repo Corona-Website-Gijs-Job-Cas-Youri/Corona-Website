@@ -23,18 +23,10 @@
         <ul id="menu">
           <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
           <li><a href="index.php">Home</a></li>
-<<<<<<< HEAD:Frontend/besmetting.php
           <li><a href="webshop.php">Webshop</a></li>
           <li><a href="info.php">Info</a></li>
           <li class="selected"><a href="besmetting.php">Besmetting</a></li>
           <li><a href="bezigheden.php">Bezigheden</a></li>
-=======
-          <li><a href="examples.php">Examples</a></li>
-          <li><a href="page.php">A Page</a></li>
-          <li class="selected"><a href="another_page.php">Another Page</a></li>
-          <li><a href="contact.php">Contact Us</a></li>
-          <li><a href="info.php">informatie</a></li>
->>>>>>> f9e08e64fabc099f33a22f9e9ab7159748c4800d:Frontend/another_page.php
         </ul>
       </div>
     </div>
@@ -68,7 +60,7 @@
       </div>
     </div>
     <div id="footer">
-      <p><a href="index.php">Home</a> | <a href="examples.php">Examples</a> | <a href="page.php">A Page</a> | <a href="another_page.php">Another Page</a> | <a href="contact.php">Contact Us</a></p>
+    <p><a href="index.php">Home</a> | <a href="webshop.php">Webshop</a> | <a href="informatie.php">Info</a> | <a href="besmetting.php">Besmetting</a> | <a href="bezigheden.php">Bezigheden</a></p>
       <p>Copyright &copy; simple_light | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
     </div>
   </div>
