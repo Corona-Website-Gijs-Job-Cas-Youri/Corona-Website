@@ -15,7 +15,7 @@ body
   font-size: large;
 }
 p
-{ padding: 0 0 20px 0;
+{ padding: 0 0 10px 0;
   line-height: 1.7em;}
 
 img
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6
 
 h2
 { font: normal 165% 'century gothic', arial, sans-serif;
-  color: #B60000;}
+  color: #db0404;}
 
 h3
 { font: normal 165% 'century gothic', arial, sans-serif;}
@@ -38,7 +38,7 @@ h4, h5, h6
 { margin: 0;
   padding: 0 0 5px 0;
   font: normal 120% arial, sans-serif;
-  color: #B60000;}
+  color: #db0404;}
 
 h5, h6
 { font: italic 95% arial, sans-serif;
@@ -159,10 +159,10 @@ ul#menu li a
 
 ul#menu li.selected a, ul#menu li.selected a:hover
 { background: #FFF;
-  color: #B60000;}
+  color: #db0404;}
 
 ul#menu li a:hover
-{ color: #B60000;}
+{ color: #db0404;}
 
 #site_content
 { width: 858px;

@@ -44,17 +44,19 @@
         
       </div>
       <div id="content">
-        <h1>Welcome to the simple_light template</h1>
-        <p>This standards compliant, simple, fixed width website template is released as an 'open source' design (under a <a href="http://creativecommons.org/licenses/by/3.0">Creative Commons Attribution 3.0 Licence</a>), which means that you are free to download and use it for anything you want (including modifying and amending it). All I ask is that you leave the 'design from HTML5webtemplates.co.uk' link in the footer of the template, but other than that...</p>
-        <p>This template is written entirely in <strong>HTML5</strong> and <strong>CSS</strong>, and can be validated using the links in the footer.</p>
-        <p>You can view more free HTML5 web templates <a href="http://www.html5webtemplates.co.uk">here</a>.</p>
-        <p>This template is a fully functional 5 page website, with an <a href="examples.php">examples</a> page that gives examples of all the styles available with this design.</p>
-        <h2>Browser Compatibility</h2>
-        <p>This template has been tested in the following browsers:</p>
+        <h1>Welkom bij Covid_Info</h1>
+        <p>Hier vindt u het laatste nieuws omtrend het Corona virus (COVID19). Daarnaast kunt U hier alle tips en informatie van de Overheid en het RIVM (Rijksinstituut voor Volksgezondheid en Milieu) vinden. Tevens bieden wij de mogelijkheid om hier o.a. handzeep, mondkapjes en toiletpapier te bestellen.  Tot slot geven wij U tips tegen de verveling en andere bezigheden om u door deze moeilijke tijd te helpen.</p>
+
+        <h2>Wat kunt U doen?</h2>
+
+        <p>Op de besmettingspagina is te zien hoeveel besmettingen er in uw buurt gesignaleerd zijn en hoeveel dat naar verhouding is. Daarnaast is het mogelijk om op de risicogroep-pagina te kijken of U binnen een risicogroep valt, wat de risicogroepen zijn en wat U kunt doen om de kans op besmetting, bij U en bij anderen, zo laag mogelijk te houden.</p>
+        <h2>Verveel je niet!</h2>
+        <p>Ten slotte hopen wij voldoende ideeën tegen de verveling te bieden en zo samen deze moeilijke tijden zo gemoedelijk mogelijk door te komen. Daarom bieden wij de volgende opties tegen de verveling:</p>
         <ul>
-          <li>Internet Explorer 8</li>
-          <li>FireFox 3</li>
-          <li>Google Chrome 13</li>
+          <li>Dagelijks vernieuwende grappenrubriek</li>
+          <li>Een collectie met de beste films</li>
+          <li>Gezelschapspelletjes voor het hele gezin</li>
+          <li>En nog veel meer!</li>
         </ul>
       </div>
     </div>
