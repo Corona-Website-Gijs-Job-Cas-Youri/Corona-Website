@@ -72,7 +72,7 @@
                             Ga niet op bezoek bij mensen van 70 jaar of ouder en mensen met een kwetsbare gezondheid.
                             <ul class="info">
                                 <li>
-                                    Ga zeker niet op bezoek als je verkoudhijdsklachten hebt.
+                                    Ga zeker niet op bezoek als je verkoudheidsklachten hebt.
                                 </li>
                             </ul>
                         </li>
@@ -97,7 +97,7 @@
                                         <li>
                                             Voordat je naar buiten gaat, als je weer thuis komt als je je neus hebt gesnoten, natuurlijk voor het eten en nadat je naar de wc bent geweest.
                                         </li>
-                                    
+
                                 </li>
                                 <li>
                                     Hoest en nies in de binnenkant van je elleboog.
@@ -118,10 +118,12 @@
                                             Dit geldt voor iedereen, bijveerbeeld op straat, in winkels, met collega's, behalve thuis en binnen het gezin/huishouden.
                                         </li>
                                     </ul>
-                                    </ul>
                                 </li>
+
                             </ul>
                         </li>
+                    </ul>
+                    </li>
                     </ul>
 
                 </p>
