@@ -30,26 +30,20 @@
       </div>
     </div>
     <div id="site_content">
-      <div class="sidebar">
-        <h1>Latest News</h1>
-        <h4>New Website Launched</h4>
-        <h5>January 1st, 2010</h5>
-        <p>2010 sees the redesign of our website. Take a look around and let us know what you think.<br /><a href="#">Read more</a></p>
-        <h1>Useful Links</h1>
+    <div class="sidebar">
+        <h1>LAATSTE NIEUWS</h1>
+        <h5>21-4-2020</h5>
+        <p>Er zijn bijna geen landen meer waar er geen Covid 19 is, toch blijven mensen naar buiten gaan.<br /><a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">lees meer</a></p>
+        <h1>STATISTIEKEN</h1>
         <ul>
-          <li><a href="#">link 1</a></li>
-          <li><a href="#">link 2</a></li>
-          <li><a href="#">link 3</a></li>
-          <li><a href="#">link 4</a></li>
+          <li>aantal besmetingen in nederland:<p id="nummer"> 33.405</p></li>
+          <li>aantal doden in nederland: <p id="nummer">3.751</p></li>
+          <li>aantal besmetingen wereld wijd: <p id="nummer">2.486.964</p></li>
+          <li>aantal doden wereld wijd: <p id="nummer">170.418</li>
         </ul>
-        <h1>Search</h1>
-        <form method="post" action="#" id="search_form">
-          <p>
-            <input class="search" type="text" name="search_field" value="Enter keywords....." />
-            <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
-          </p>
-        </form>
+        
       </div>
+      
       <div id="content">
         <h1>Welcome to the simple_light template</h1>
         <p>This standards compliant, simple, fixed width website template is released as an 'open source' design (under a <a href="http://creativecommons.org/licenses/by/3.0">Creative Commons Attribution 3.0 Licence</a>), which means that you are free to download and use it for anything you want (including modifying and amending it). All I ask is that you leave the 'design from HTML5webtemplates.co.uk' link in the footer of the template, but other than that...</p>
