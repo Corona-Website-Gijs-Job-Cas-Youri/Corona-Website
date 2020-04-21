@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>simple_light</title>
+  <title>Covid_Info</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
@@ -14,8 +14,8 @@
     <div id="header">
       <div id="logo">
         <!-- class="logo_colour", allows you to change the colour of the text -->
-        <h1><a href="index.php">simple<span class="logo_colour">_light</span></a></h1>
-        <h2>Simple. Contemporary. Website Template.</h2>
+        <h1><a href="index.php">Covid<span class="logo_colour">_Info</a></h1>
+        <h2>Blijf Thuis, Verveel Je Niet!</h2>
       </div>
       <div id="menubar">
         <ul id="menu">
