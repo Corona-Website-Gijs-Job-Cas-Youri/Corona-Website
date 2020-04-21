@@ -10,8 +10,11 @@ html {
 body {
   font: normal 0.8em trebuchet ms, sans-serif;
   background: rgb(220, 220, 220);
-  color: #5d5d5d;
-}
+  color: #5D5D5D;}
+
+p
+{ padding: 0 0 10px 0;
+  line-height: 1.7em;}
 
 p {
   padding: 0 0 20px 0;
@@ -34,10 +37,9 @@ h6 {
   padding: 10px 0 5px 0;
 }
 
-h2 {
-  font: normal 165% "century gothic", arial, sans-serif;
-  color: #b60000;
-}
+h2
+{ font: normal 165% 'century gothic', arial, sans-serif;
+  color: #db0404;}
 
 h3 {
   font: normal 165% "century gothic", arial, sans-serif;
@@ -49,22 +51,17 @@ h6 {
   margin: 0;
   padding: 0 0 5px 0;
   font: normal 120% arial, sans-serif;
-  color: #b60000;
-}
+  color: #db0404;}
 
-h5,
-h6 {
-  font: italic 95% arial, sans-serif;
-  color: #888;
-}
+h5, h6
+{ font: italic 95% arial, sans-serif;
+  color: #888;}
 
-h6 {
-  color: #362c20;
-}
+h6
+{ color: #362C20;}
 
-a,
-a:hover {
-  outline: none;
+a, a:hover
+{ outline: none;
   text-decoration: underline;
   color: #a4aa04;
 }
@@ -214,18 +211,14 @@ ul#menu li a {
   text-align: center;
   color: #000;
   text-decoration: none;
-  background: #e0e0e0;
-}
+  background: rgb(190, 190, 190);} 
 
-ul#menu li.selected a,
-ul#menu li.selected a:hover {
-  background: #fff;
-  color: #b60000;
-}
+ul#menu li.selected a, ul#menu li.selected a:hover
+{ background: #FFF;
+  color: #db0404;}
 
-ul#menu li a:hover {
-  color: #b60000;
-}
+ul#menu li a:hover
+{ color: #db0404;}
 
 #site_content {
   width: 858px;
