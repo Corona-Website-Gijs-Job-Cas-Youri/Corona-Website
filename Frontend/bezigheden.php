@@ -23,10 +23,18 @@
         <ul id="menu">
           <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
           <li><a href="index.php">Home</a></li>
+<<<<<<< HEAD:Frontend/bezigheden.php
           <li><a href="webshop.php">Webshop</a></li>
           <li><a href="info.php">Info</a></li>
           <li><a href="besmetting.php">Besmetting</a></li>
           <li class="selected"><a href="bezigheden.php">Bezigheden</a></li>
+=======
+          <li><a href="examples.php">Examples</a></li>
+          <li><a href="page.php">A Page</a></li>
+          <li><a href="another_page.php">Another Page</a></li>
+          <li class="selected"><a href="contact.php">Contact Us</a></li>
+          <li><a href="info.php">informatie</a></li>
+>>>>>>> f9e08e64fabc099f33a22f9e9ab7159748c4800d:Frontend/contact.php
         </ul>
       </div>
     </div>
