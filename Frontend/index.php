@@ -21,10 +21,10 @@
         <ul id="menu">
           <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
           <li class="selected"><a href="index.php">Home</a></li>
-          <li><a href="examples.php">Examples</a></li>
-          <li><a href="page.php">A Page</a></li>
-          <li><a href="another_page.php">Another Page</a></li>
-          <li><a href="contact.php">Contact Us</a></li>
+          <li><a href="webshop.php">Webshop</a></li>
+          <li><a href="info.php">Info</a></li>
+          <li><a href="besmetting.php">Besmetting</a></li>
+          <li><a href="bezigheden.php">Bezigheden</a></li>
         </ul>
       </div>
     </div>
