@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>simple_light - another page</title>
+  <title>Besmettingen</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
