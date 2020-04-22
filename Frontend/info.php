@@ -113,7 +113,7 @@
                                 </li>
                                 <li>
                                     houd 1,5 meter afstand(2 armlengtes) van anderen
-                                    <ul>
+                                    <ul class="info">
                                         <li>
                                             Dit geldt voor iedereen, bijveerbeeld op straat, in winkels, met collega's, behalve thuis en binnen het gezin/huishouden.
                                         </li>
@@ -123,13 +123,11 @@
                     </ul>
                     </li>
                     </ul>
-                    <h1>Ik heb klachten die passen bij het nieuwe coronavirus. Wat moet ik doen?</h1>
-                    
-
-                    
-
                 </p>
-
+                <h1>Ik heb klachten die passen bij het nieuwe coronavirus. Wat moet ik doen?</h1>
+                <p>
+                    help
+                </p>
             </div>
         </div>
         <div id="footer">
