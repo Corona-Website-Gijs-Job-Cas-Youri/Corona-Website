@@ -123,6 +123,10 @@
                     </ul>
                     </li>
                     </ul>
+                    <h1>Ik heb klachten die passen bij het nieuwe coronavirus. Wat moet ik doen?</h1>
+                    
+
+                    
 
                 </p>
 
