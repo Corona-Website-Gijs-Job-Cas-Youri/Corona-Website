@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Covid_Info</title>
+    <title>Informatie</title>
     <meta name="description" content="website description" />
     <meta name="keywords" content="website keywords, website keywords" />
     <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
@@ -14,8 +14,8 @@
         <div id="header">
             <div id="logo">
                 <!-- class="logo_colour", allows you to change the colour of the text -->
-                <h1><a href="index.php">simple<span class="logo_colour">_light</span></a></h1>
-                <h2>Simple. Contemporary. Website Template.</h2>
+                <h1><a href="index.php">Covid<span class="logo_colour">_Info</a></h1>
+                <h2>Blijf Thuis, Verveel Je Niet!</h2>
             </div>
             <div id="menubar">
                 <ul id="menu">
@@ -51,7 +51,7 @@
                 <p>
                     <ul>
                         <li>Blijf zoveel mogelijk thuis.
-                            <ul>
+                            <ul class="info">
                                 <li>
                                     ontvang zo min mogelijk bezoek(Maximaal 3 bezoekers) en
                                 </li>
@@ -62,7 +62,7 @@
                         </li>
                         <li>
                             Ga alleen naar buiten als dat nodig is.
-                            <ul>
+                            <ul class="info">
                                 <li>
                                     Voor werk wanneer je niet thuis kan werken, voor boodschappen, een frisse neus of om iets voor een ander te doen.
                                 </li>
@@ -70,9 +70,9 @@
                         </li>
                         <li>
                             Ga niet op bezoek bij mensen van 70 jaar of ouder en mensen met een kwetsbare gezondheid.
-                            <ul>
+                            <ul class="info">
                                 <li>
-                                    Ga zeker niet op bezoek als je verkoudhijdsklachten hebt.
+                                    Ga zeker niet op bezoek als je verkoudheidsklachten hebt.
                                 </li>
                             </ul>
                         </li>
@@ -87,7 +87,7 @@
                         </li>
                         <li>
                             Zorg voor goede hygiënemaatregelen:
-                            <ul>
+                            <ul class="info">
                                 <li>
                                     Was je handen.
                                     <ul>
@@ -97,7 +97,7 @@
                                         <li>
                                             Voordat je naar buiten gaat, als je weer thuis komt als je je neus hebt gesnoten, natuurlijk voor het eten en nadat je naar de wc bent geweest.
                                         </li>
-                                    </ul>
+
                                 </li>
                                 <li>
                                     Hoest en nies in de binnenkant van je elleboog.
@@ -119,21 +119,15 @@
                                         </li>
                                     </ul>
                                 </li>
+
                             </ul>
                         </li>
                     </ul>
+                    </li>
+                    </ul>
 
                 </p>
-                <p>This template is written entirely in <strong>HTML5</strong> and <strong>CSS</strong>, and can be validated using the links in the footer.</p>
-                <p>You can view more free HTML5 web templates <a href="http://www.html5webtemplates.co.uk">here</a>.</p>
-                <p>This template is a fully functional 5 page website, with an <a href="examples.php">examples</a> page that gives examples of all the styles available with this design.</p>
-                <h2>Browser Compatibility</h2>
-                <p>This template has been tested in the following browsers:</p>
-                <ul>
-                    <li>Internet Explorer 8</li>
-                    <li>FireFox 3</li>
-                    <li>Google Chrome 13</li>
-                </ul>
+
             </div>
         </div>
         <div id="footer">

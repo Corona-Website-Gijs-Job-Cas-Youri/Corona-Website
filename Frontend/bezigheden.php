@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Covid_Info</title>
+  <title>Bezigheden</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
@@ -15,8 +15,8 @@
       <div id="logo">
         <div id="logo_text">
           <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="index.php">simple<span class="logo_colour">_light</span></a></h1>
-          <h2>Simple. Contemporary. Website Template.</h2>
+          <h1><a href="index.php">Covid<span class="logo_colour">_Info</a></h1>
+          <h2>Blijf Thuis, Verveel Je Niet!</h2>
         </div>
       </div>
       <div id="menubar">
@@ -43,20 +43,43 @@
           <li>aantal besmetingen wereld wijd: <p id="nummer">2.486.964</p></li>
           <li>aantal doden wereld wijd: <p id="nummer">170.418</li>
         </ul>
-        
-      </div id="content">
-
-        <h1>Contact Us</h1>
-        <p>Below is an example of how a contact form might look with this template:</p>
-        <form action="#" method="post">
-          <div class="form_settings">
-            <p><span>Name</span><input class="contact" type="text" name="your_name" value="" /></p>
-            <p><span>Email Address</span><input class="contact" type="text" name="your_email" value="" /></p>
-            <p><span>Message</span><textarea class="contact textarea" rows="8" cols="50" name="your_enquiry"></textarea></p>
-            <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="contact_submitted" value="submit" /></p>
-          </div>
+        <h1>Search</h1>
+        <form method="post" action="#" id="search_form">
+          <p>
+            <input class="search" type="text" name="search_field" value="Enter keywords....." />
+            <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
+          </p>
         </form>
-        <p><br /><br />NOTE: A contact form such as this would require some way of emailing the input to an email address.</p>
+      </div>
+      <div id="content">
+          <p>
+          <h1>Wat te doen tijdens quarantaine</h1>
+          Verveelt uw zich tijdens quarantaine veroorzaakt door de momemtele uitbreek van covid 19.<br>
+          Dan zijn hier uw mogelijke dingen om uw bezigheden:<br>
+          <br>
+          <h1>Sport</h1><br>
+          Het is in deze tijden belangrijk dat je gezond blijft, dus hier zijn een paar sportoefeningen voor thuis.<br>
+          
+          <ul>
+          <li>Touwtje springen</li>
+          
+          <li>Opdrukken</li>
+          <li>Planken</li>
+          <li>Hardlopen</li>
+          <li>Yoga</li>
+          </ul><br>
+          
+          <h1>Relaxen</h1><br>
+          Je moet natuurlijk ook relaxen. hier zijn een paar dingen die kunt doen:<br>
+          <br>
+          <ul>
+          <li>Kijk een film</li>
+          <li>Klus aan het huis</li>
+          <li>Zit buiten op je terras(als je dat hebt)</li>
+          <li>De tuin verzorgen</li>
+          <li>Doe zelf iets anders wat je leuk</li>
+          </ul>
+          </p>        
       </div>
     </div>
     <div id="footer">
@@ -66,3 +89,13 @@
   </div>
 </body>
 </html>
+
+<!-- <form action="#" method="post">
+          <div class="form_settings">
+            <p><span>Name</span><input class="contact" type="text" name="your_name" value="" /></p>
+            <p><span>Email Address</span><input class="contact" type="text" name="your_email" value="" /></p>
+            <p><span>Message</span><textarea class="contact textarea" rows="8" cols="50" name="your_enquiry"></textarea></p>
+            <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="contact_submitted" value="submit" /></p>
+          </div>
+        </form>
+        <p><br /><br />NOTE: A contact form such as this would require some way of emailing the input to an email address.</p> -->
