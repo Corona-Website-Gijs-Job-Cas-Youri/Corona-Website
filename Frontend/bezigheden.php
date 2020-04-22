@@ -63,17 +63,24 @@
           <ul>
           <li><h4>Touwtje springen</h4><br>
           Het is een oefening om je conditie op niveau te houden. dit kan je makkelijkste doen met echt springtouw dat je waarschijnlijk
-          hebt als je kinderen hebt of minder makkelijk met een normaal touw als alternatief.</li>          
+          hebt als je kinderen hebt of minder makkelijk met een normaal touw als alternatief voor een springtouw gebruiken.<br>
+          klik <a href="https://www.afvallenmetsport.nl/touwtje-springen-6-tips-om-het-te-leren/">hier</a> voor tips 
+          bij het touwtje sprigen</li>          
           <li><h4>Opdrukken</h4><br>
-          Het is een goede oefening om je armspieren sterk te houden.</li>
+          Het is een goede oefening om je armspieren sterk te houden.
+          Klik <a href="https://voeding-en-fitness.nl/push-ups-uitvoering-techniek-tips/">hier</a> voor tips bij het opdrukken.</li>
           <li><h4>Planken</h4><br>
-          Een goed alternatief voor opdrukken.</li>
+          Een goed alternatief voor opdrukken.
+          Klik <a href="https://drogespieren.nl/krachttraining/planking">hier</a> voor tips bij het Planken</li>
           <li><h4>Hardlopen</h4><br>
-          Het is een goede afleiding van de crisis waarbij je je conditie opbouwt en wat natuur ziet tijdens de oefening.</li>
+          Het is een goede afleiding van de crisis waarbij je je conditie opbouwt en wat natuur ziet tijdens de oefening.<br>
+          Klik <a href="https://sochicken.nl/beginnen-met-hardlopen">hier</a> voor tips bij het hardlopen</li>
           <li><h4>Yoga</h4><br>
-          Het helpt je ontspannen en lenig te worden</li>
-          <li><h4>squads</h4><br>
-          Een goede oefeningen voor de beenspieren.</li>
+          Het helpt je ontspannen en lenig te worden.
+          Klik hier <a href="https://www.yogashop.nl/nl/blogs/yoga-en-meditatie/yoga-voor-beginners/">hier</a> voor tips bij yoga.</li>
+          <li><h4>squats</h4><br>
+          Een goede oefeningen voor de beenspieren.<br>
+          Klik <a href="https://www.fit.nl/fitnessoefeningen/squat">hier</a> voor tips bij sqauts.</li>
           
           </ul><br>
           
