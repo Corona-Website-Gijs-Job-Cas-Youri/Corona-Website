@@ -61,23 +61,50 @@
           Het is in deze tijden belangrijk dat je gezond blijft, dus hier zijn een paar sportoefeningen voor thuis.<br>
           
           <ul>
-          <li>Touwtje springen</li>
+          <li><h4>Touwtje springen</h4><br>
+          Het is een oefening om je conditie op niveau te houden. dit kan je makkelijkste doen met echt springtouw dat je waarschijnlijk
+          hebt als je kinderen hebt of minder makkelijk met een normaal touw als alternatief.</li>          
+          <li><h4>Opdrukken</h4><br>
+          Het is een goede oefening om je armspieren sterk te houden.</li>
+          <li><h4>Planken</h4><br>
+          Een goed alternatief voor opdrukken.</li>
+          <li><h4>Hardlopen</h4><br>
+          Het is een goede afleiding van de crisis waarbij je je conditie opbouwt en wat natuur ziet tijdens de oefening.</li>
+          <li><h4>Yoga</h4><br>
+          Het helpt je ontspannen en lenig te worden</li>
+          <li><h4>squads</h4><br>
+          Een goede oefeningen voor de beenspieren.</li>
           
-          <li>Opdrukken</li>
-          <li>Planken</li>
-          <li>Hardlopen</li>
-          <li>Yoga</li>
           </ul><br>
           
           <h1>Relaxen</h1><br>
           Je moet natuurlijk ook relaxen. hier zijn een paar dingen die kunt doen:<br>
           <br>
           <ul>
-          <li>Kijk een film</li>
-          <li>Klus aan het huis</li>
-          <li>Zit buiten op je terras(als je dat hebt)</li>
-          <li>De tuin verzorgen</li>
-          <li>Doe zelf iets anders wat je leuk</li>
+          <li><h4>Kijk een film, klik dan <a href="https://www.filmvandaag.nl/top100">hier</a> voor voorbeelden</h4><br>
+          een film is een goede afleiding die je ook met het hele gezin kunt kijken.</li>
+          <li><h4>Klus aan het huis</h4><br>
+          Nu je toch meer tijd kun je die tijd gebruiken om aan je huis te werken als dat mag.</li>
+          <li><h4>Zit buiten op je terras(als je dat hebt)</h4><br>
+          je kunt natuurlijk ook gewoon buiten zitten met wat te drinken en van de zon genieten</li>
+          <li><h4>Tuinieren</h4><br>
+          Met de coronacrisis kun je eindelijk wat tijd besteden aan die tuin of moestuin in je achtertuin</li>
+          <li><h4>Doe zelf iets anders wat je leuk</h4><br>
+          Dit zijn maar een paar voorstellen die benoemd zijn, maar uw kunt natuurlijk ook zelf iets bedenken</li>
+          </ul><br>
+
+          <h1>Leer iets nieuws</h1><br>
+          Je kunt deze tijd die iedereen krijgt ook gebruiken om nieuwe dingen te leren:<br>
+          <ul>
+            <li><h4>Leer een instrument spelen</h4><br>
+            Hebt uw misschien een nieuwe interesse in muziek, dan kunt uw nu focussen op het beheersen van een instrument en 
+            mogelijk tegelijkertijd leren zingen.</li>
+            <li><h4>Ontdek jezelf</h4><br>
+            Misschien ontdek door het lange thuis zitten of door het verkennen van nieuwe dingen iets nieuws over uzelf, 
+            zoals bijvoorbeeld een nieuwe passie of nieuwe interesse</li>
+            <li><h4>Leer iets over planten en dieren</h4><br>
+            Met deze hoeveelheid tijd kunt uw tijd investeren in de dieren en planten wereld en bijvoorbeeld iets nieuws over uw 
+            kat of hond leren of een nieuwe eigenschap of feit van uw huisplant.</li>
           </ul>
           </p>        
       </div>
