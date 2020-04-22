@@ -13,10 +13,17 @@ body {
   color: #5d5d5d;
 }
 
-p {
-  padding: 0 0 20px 0;
-  line-height: 1.7em;
+  
+#nummer{
+  color: red;
+  font-weight: bold;
+  font-size: large;
 }
+
+
+p
+{ padding: 0 0 20px 0;
+  line-height: 1.7em;}
 
 img {
   border: 0;
