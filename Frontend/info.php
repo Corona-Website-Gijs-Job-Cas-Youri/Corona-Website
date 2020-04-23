@@ -124,8 +124,8 @@
                     </li>
                     </ul>
                 </p>
-                <div id="info_content">
-                <h1>Ik heb klachten die passen bij het nieuwe coronavirus. Wat moet ik doen?</h1>
+                <div>
+
                 <li>
                     <b>Heb je verkoudheidsklachten, zoals neusverkoudheid, loopneus, keelpijn, lichte hoest of verhoging (tot 38 graden Celsius)? </b>
                     Blijf thuis. Ziek uit. Doe geen boodschappen en ontvang geen bezoek. Laat anderen boodschappen doen, of laat ze bezorgen, zorg dat een ander de hond uitlaat. Voor huisgenoten zonder klachten gelden de regels die voor iedereen in Nederland gelden. Als je 24 uur lang geen klachten hebt, mag je weer naar buiten. 
