@@ -45,7 +45,8 @@
       </div>
       <div id="content">
         <h1>Risicogroep</h1>
-        <p>test</p>
+        <p>test
+        lalala</p>
     </div>
     <div id="footer">
     <p><a href="index.php">Home</a> | <a href="bezigheden.php">Bezigheden</a> | <a href="besmetting.php">Besmetting</a> | <a href="webshop.php">Webshop</a> | <a href="risicogroep.php">Risicogroep</a> | <a href="info.php">informatie</a></p>
