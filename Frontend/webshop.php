@@ -49,19 +49,19 @@
       <div id="content">
           <div id="product">
             <img src="style/mondkapjes.jpg" alt="mondkapjes" style="width: 350px; height: 350px; padding-left: 100px"></img>
-            <h2 style="text-align: center">mondkapjes</h2>
+            <h2 style="text-align: center; padding-top: 20px; font-weight: bold;">mondkapjes</h2>
           </div>
       </a>
       <a href="handschoenen.php">
           <div id="product">
             <img src="style/hand.jpg" alt="handschoenen" style="width: 350px; height: 350px; padding-left: 100px"></img>
-            <h2 style="text-align: center">handschoenen</h2>
+            <h2 style="text-align: center; padding-top: 20px; font-weight: bold;">handschoenen</h2>
           </div>
       </a>
       <a href="zeep.php">
           <div id="product">
             <img src="style/zeep.jpg" alt="zeep" style="width: 350px; height: 350px; padding-left: 100px"></img>
-            <h2 style="text-align: center">zeep</h2>
+            <h2 style="text-align: center; padding-top : 20px; font-weight: bold;">zeep</h2>
           </div>
       </a>
         
