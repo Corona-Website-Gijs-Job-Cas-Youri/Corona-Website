@@ -50,7 +50,7 @@
                 <h1>Hoe kun je Corona voorkomen?</h1>
                 <p>
                     <ul>
-                        <li>Blijf zoveel mogelijk thuis.
+                        <li><b>Blijf zoveel mogelijk thuis.</b>
                             <ul class="info">
                                 <li>
                                     ontvang zo min mogelijk bezoek(Maximaal 3 bezoekers) en
@@ -61,7 +61,7 @@
                             </ul>
                         </li>
                         <li>
-                            Ga alleen naar buiten als dat nodig is.
+                            <b>Ga alleen naar buiten als dat nodig is.</b>
                             <ul class="info">
                                 <li>
                                     Voor werk wanneer je niet thuis kan werken, voor boodschappen, een frisse neus of om iets voor een ander te doen.
@@ -69,7 +69,7 @@
                             </ul>
                         </li>
                         <li>
-                            Ga niet op bezoek bij mensen van 70 jaar of ouder en mensen met een kwetsbare gezondheid.
+                            <b>Ga niet op bezoek bij mensen van 70 jaar of ouder en mensen met een kwetsbare gezondheid.</b>
                             <ul class="info">
                                 <li>
                                     Ga zeker niet op bezoek als je verkoudheidsklachten hebt.
@@ -86,7 +86,7 @@
                             Tegen groepen van meer dan 2 personen die niet 1,5 meter afstand van elkaar houden, kan worden opgetreden.
                         </li>
                         <li id="li_last">
-                            Zorg voor goede hygiënemaatregelen:
+                            <b>Zorg voor goede hygiënemaatregelen:</b>
                             <ul class="info">
                                 <li>
                                     Was je handen.
@@ -149,7 +149,8 @@
                 </p>
                 <p>
                     voor meer informatie klik <a href="https://www.rivm.nl/coronavirus-covid-19/vragen-antwoorden#eigengezondheid">dit</a> linkje.
-                </p>
+                    </p>
+                    <p>dit is test tekst</p>
             </div>
         </div>
         <div id="footer">

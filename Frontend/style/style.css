@@ -36,6 +36,16 @@ body {
   margin-top: 10px;
 }
 
+.grafiek{
+  width: 600px;
+  height: 420px;
+  border: 1px black;
+  border-collapse: collapse;
+  background-color: white;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
 p {
   padding: 0 0 20px 0;
   line-height: 1.7em;
@@ -83,6 +93,7 @@ h6 {
 h6 {
   color: #362c20;
 }
+
 
 
 a, a:hover
