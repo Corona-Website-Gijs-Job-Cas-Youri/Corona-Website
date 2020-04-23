@@ -27,7 +27,7 @@
           <li><a href="besmetting.php">Besmetting</a></li>
           <li><a href="webshop.php">Webshop</a></li>
           <li><a href="risicogroep.php">Risicogroep</a></li>
-          <li><a href="info.php">informatie</a></li>
+          <li><a href="info.php">Informatie</a></li>
         </ul>
       </div>
     </div>
@@ -107,7 +107,7 @@
             Hebt uw misschien een nieuwe interesse in muziek, dan kunt uw nu focussen op het beheersen van een instrument en 
             mogelijk tegelijkertijd leren zingen.</li>
             <li><h4>Ontdek jezelf</h4><br>
-            Misschien ontdek je jezelf door het lange thuis zitten of door het verkennen van nieuwe dingen iets nieuws over uzelf, 
+            Misschien ontdek je jezelf door het lange thuis zitten of door het verkennen van nieuwe dingen, 
             zoals bijvoorbeeld een nieuwe passie of nieuwe interesse</li>
             <li><h4>Leer iets over planten en dieren</h4><br>
             Met deze hoeveelheid tijd kunt uw tijd investeren in de dieren en planten wereld en bijvoorbeeld iets nieuws over uw 

@@ -27,7 +27,7 @@
           <li class="selected"><a href="besmetting.php">Besmetting</a></li>
           <li><a href="webshop.php">Webshop</a></li>
           <li><a href="risicogroep.php">Risicogroep</a></li>
-          <li><a href="info.php">informatie</a></li>
+          <li><a href="info.php">Informatie</a></li>
         </ul>
       </div>
     </div>
@@ -48,9 +48,13 @@
       <div id="content">
         <h1>Besmettings gevaar</h1>
         <p>
-          Hier kunt uw bekijken hoe veilig uw stad of regio is.<br> 
+          Hier kunt uw bekijken hoe veilig uw stad en directe omgeving is.<br> 
           <input type="text">
-          <button type="submit">zoek</button>
+          <button type="submit">zoek</button><br>
+          (Placeholder voor kans van besmetting)<br>
+          <br>
+          Hier is voor een voorbeeld de meest recente kaart van besmettingen per gemeente
+          <img src="style/coronakaart.png">
         </p>
       </div>
     </div>
