@@ -45,11 +45,13 @@
         </ul>
         
       </div>
+      <a href="mondkapjes.php">
       <div id="content">
           <div id="product">
             <img src="style/mondkapjes.jpg" alt="mondkapjes" style="width: 350px; height: 350px; padding-left: 100px"></img>
             <h2 style="text-align: center">mondkapjes</h2>
           </div>
+      </a>
 
           <div id="product">
             <img src="style/hand.jpg" alt="handschoenen" style="width: 350px; height: 350px; padding-left: 100px"></img>

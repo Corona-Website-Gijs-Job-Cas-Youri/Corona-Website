@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Risicogroep</title>
+  <title>mondkapjes</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
@@ -13,9 +13,11 @@
   <div id="main">
     <div id="header">
       <div id="logo">
-        <!-- class="logo_colour", allows you to change the colour of the text -->
-        <h1><a href="index.php">Covid<span class="logo_colour">_Info</a></h1>
-        <h2>Blijf Thuis, Verveel Je Niet!</h2>
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.php">Covid<span class="logo_colour">_Info</a></h1>
+          <h2>Blijf Thuis, Verveel Je Niet!</h2>
+        </div>
       </div>
       <div id="menubar">
         <ul id="menu">
@@ -23,8 +25,8 @@
           <li><a href="index.php">Home</a></li>
           <li><a href="bezigheden.php">Bezigheden</a></li>
           <li><a href="besmetting.php">Besmetting</a></li>
-          <li><a href="webshop.php">Webshop</a></li>
-          <li class="selected"><a href="risicogroep.php">Risicogroep</a></li>
+          <li class="selected"><a href="webshop.php">Webshop</a></li>
+          <li><a href="risicogroep.php">Risicogroep</a></li>
           <li><a href="info.php">informatie</a></li>
         </ul>
       </div>
@@ -44,8 +46,17 @@
         
       </div>
       <div id="content">
-        <h1>Risicogroep</h1>
-        <p>test</p>
+      <div id="product">
+        <h1 style="text-align: center; font-size: 30px">mondkapjes</h1>
+        <img src="style/mondkapjes.jpg" alt="mondkapjes" style="width: 350px; height: 350px; padding-left: 100px"></img>
+      </div>
+      <div id="beschrijving"><p>Dit mondkapje is geschikt voor elk gezichtstype en heeft 3 lagen met een goede bescherming tegen infecties. 
+                            Tevens bevat het een goede luchtdoorlatendheid door het gebruik van lichte materialen. Doordat warmte zich minder kan ophopen onder het masker,
+                            zijn er minder huidirritaties.</p></div>
+
+          </div>
+        </form>
+      </div>
     </div>
     <div id="footer">
     <p><a href="index.php">Home</a> | <a href="bezigheden.php">Bezigheden</a> | <a href="besmetting.php">Besmetting</a> | <a href="webshop.php">Webshop</a> | <a href="risicogroep.php">Risicogroep</a> | <a href="info.php">informatie</a></p>
