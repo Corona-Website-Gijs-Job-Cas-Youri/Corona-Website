@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/gheetebrij/public_html/
--     /bin/cp -R frontend $DEPLOYPATH
+-     /bin/cp -R Frontend $DEPLOYPATH
