@@ -85,7 +85,7 @@
                         <li>
                             Tegen groepen van meer dan 2 personen die niet 1,5 meter afstand van elkaar houden, kan worden opgetreden.
                         </li>
-                        <li>
+                        <li id="li_last">
                             Zorg voor goede hygiënemaatregelen:
                             <ul class="info">
                                 <li>
@@ -121,16 +121,35 @@
                             </ul>
                         </li>
                     </ul>
-                    </li>
-                    </ul>
-                </p>
-                <div>
 
-                <li>
-                    <b>Heb je verkoudheidsklachten, zoals neusverkoudheid, loopneus, keelpijn, lichte hoest of verhoging (tot 38 graden Celsius)? </b>
-                    Blijf thuis. Ziek uit. Doe geen boodschappen en ontvang geen bezoek. Laat anderen boodschappen doen, of laat ze bezorgen, zorg dat een ander de hond uitlaat. Voor huisgenoten zonder klachten gelden de regels die voor iedereen in Nederland gelden. Als je 24 uur lang geen klachten hebt, mag je weer naar buiten. 
-                </li>
-                </div>
+                </p>
+            </div>
+            <div id="info_content">
+
+                <p>
+                    <h1>Ik heb klachten die passen bij het nieuwe coronavirus. Wat moet ik doen?</h1>
+                    <li>
+                        <b>Heb je verkoudheidsklachten, zoals neusverkoudheid, loopneus, keelpijn, lichte hoest of verhoging (tot 38 graden Celsius)? </b>
+                        Blijf thuis. Ziek uit. Doe geen boodschappen en ontvang geen bezoek. Laat anderen boodschappen doen, of laat ze bezorgen, zorg dat een ander de hond uitlaat. Voor huisgenoten zonder klachten gelden de regels die voor iedereen in Nederland gelden. Als je 24 uur lang geen klachten hebt, mag je weer naar buiten.
+                    </li>
+                    <li>
+                        <b> Heb je verkoudheidsklachten en koorts (boven 38 graden Celsius) en/of benauwdheid? </b>
+                        Blijf thuis. Ziek uit. Doe geen boodschappen en ontvang geen bezoek. Heb je huisgenoten, dan mogen zij ook niet naar buiten. Als uitzondering hierop mogen alleen huisgenoten die geen klachten hebben even boodschappen doen. Als iedereen 24 uur geen klachten heeft, mag je weer naar buiten.
+                    </li>
+                    <li>
+                        Mensen die werken in cruciale beroepen of vitale processen zijn hiervan uitgezonderd; zij blijven pas thuis als zij zelf klachten met koorts hebben (overleg zo nodig met je werkgever).
+                    </li>
+                    <li>Zorgmedewerkers met minimaal 24 uur milde klachten of ernstige klachten kunnen getest worden. Zij blijven zeker thuis met koorts, en bij voorkeur ook als ze alleen milde klachten zonder koorts hebben, totdat zij de testuitslag krijgen. Indien thuis blijven geen optie is, kan iemand met milde klachten nog kan werken als hij of zij daarvoor de juiste PBM persoonlijke beschermingsmiddelen draagt .</li>
+                </p>
+                <p>
+                    <h1>Wanneer moet ik de huisarts bellen?</h1>
+
+                    Je belt de huisarts als je zieker wordt, of je medische hulp nodig heeft, bijvoorbeeld als je hoge koorts krijgt of moeilijk ademt. Ga niet naar de huisarts of het ziekenhuis toe, maar <b>bel</b> de huisarts.
+
+                </p>
+                <p>
+                    voor meer informatie klik <a href="https://www.rivm.nl/coronavirus-covid-19/vragen-antwoorden#eigengezondheid">dit</a> linkje.
+                </p>
             </div>
         </div>
         <div id="footer">
