@@ -45,8 +45,42 @@
       </div>
       <div id="content">
         <h1>Risicogroep</h1>
-        <p>test
-        lalala</p>
+      <div id="content">
+        <h2>Wat is een risicogroep?</h2>
+        <p>Een risicogroep is een groep binnen de bevolking die extra vatbaar is voor in dit geval het Cornonavirus. Zij hebben dus een grotere kans om het virus te krijgen en om eraan te overlijden.</p>
+
+        <h2>Val ik binnen de risicogroep?</h2>
+        <h3>De risicogroepen zijn:</h3>
+        <ul> 
+          <li>Ouderen</li>
+          <li>Mensen met hart- of longproblemen</li>
+          <li>Mensen met bepaalde vormen van suikerziekte en nierproblemen</li>
+          <li>Mensen met immuunziektes/ een zwak afweersysteem</li>
+          <li>Erg jonge kinderen</li>
+        </ul>
+        
+        <h3>De Cijfers</h3>
+
+          <div id="grafiek" class="grafiek">
+          <h2 style="text-align: center">Aantal gemelde Coronagevallen in Nederland</h2>
+          <img src="style\Bij-de-GGD-gemelde-pati-nten.png" alt="grafiek coronagevallen"></img>
+          </div>
+
+          <div id="grafiek2" class="grafiek">
+          <h2 style="text-align: center">Aantal opgenomen patiënten in Nederland</h2>
+          <img src="style/In-ziekenhuis-opgenomen-pati-nten.png" alt="grafiek opgenomen patiënten"></img>
+          </div>
+
+          <h3>Tot slot</h3>
+          <p>Over het algemeen ligt het overlijdenspercentage het hoogst onder ouderen. Zij hebben meestal een zwakker immuunsysteem en zijn daardoor kwetsbaarder voor het Coronavirus. Dit is te bevestigen aan de hand van de volgende grafiek:</p>
+
+          <div id="grafiek3" class="grafiek">
+          <h2 style="text-align: center">Aantal overledenen per leeftijd en geslacht</h2>
+          <img src="style\Leeftijd-en-geslacht-overledenen.png" alt="grafiek overledenen"></img>
+          </div>
+          <p>Voor meer informatie, <a href="https://www.nu.nl/coronavirus/6039163/wanneer-val-je-onder-de-risicogroep-voor-het-coronavirus.html?redirect=1">klik hier.</a></p>
+      </div>
+      </div>
     </div>
     <div id="footer">
     <p><a href="index.php">Home</a> | <a href="bezigheden.php">Bezigheden</a> | <a href="besmetting.php">Besmetting</a> | <a href="webshop.php">Webshop</a> | <a href="risicogroep.php">Risicogroep</a> | <a href="info.php">informatie</a></p>
