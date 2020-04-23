@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Webshop</title>
+  <title>zeep</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
@@ -45,26 +45,13 @@
         </ul>
         
       </div>
-      <a href="mondkapjes.php">
       <div id="content">
-          <div id="product">
-            <img src="style/mondkapjes.jpg" alt="mondkapjes" style="width: 350px; height: 350px; padding-left: 100px"></img>
-            <h2 style="text-align: center">mondkapjes</h2>
-          </div>
-      </a>
-      <a href="handschoenen.php">
-          <div id="product">
-            <img src="style/hand.jpg" alt="handschoenen" style="width: 350px; height: 350px; padding-left: 100px"></img>
-            <h2 style="text-align: center">handschoenen</h2>
-          </div>
-      </a>
-      <a href="zeep.php">
-          <div id="product">
-            <img src="style/zeep.jpg" alt="zeep" style="width: 350px; height: 350px; padding-left: 100px"></img>
-            <h2 style="text-align: center">zeep</h2>
-          </div>
-      </a>
-        
+      <div id="product">
+        <h1 style="text-align: center; font-size: 30px">zeep</h1>
+        <img src="style/zeep.jpg" alt="zeep" style="width: 350px; height: 350px; padding-left: 100px"></img>
+      </div>
+      <div id="beschrijving"><p>Bijzonder geschikt tegen huidveroudering Met aromatische oliën Gaat net zo lang mee als 3 normale douchegelflessen!</p></div>
+
           </div>
         </form>
       </div>
