@@ -422,3 +422,27 @@ table tr td {
   color: #47433f;
   border-top: 1px solid #fff;
 }
+
+#nieuwsbrief_bar{
+  width: 605px;
+  margin-top: 80px;
+  border: 5px solid rgb(255, 60, 60);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#nieuwsbrief_bar p{
+  margin: 0px;
+  padding: 0px;
+}
+#nieuwsbrief_bar a{
+color: black;
+}
+
+#nieuwsbrief_bar:hover{
+  background-color: rgb(255, 60, 60);
+}
