@@ -25,12 +25,8 @@
           <li><a href="besmetting.php">Besmetting</a></li>
           <li><a href="webshop.php">Webshop</a></li>
           <li class="selected"><a href="risicogroep.php">Risicogroep</a></li>
-<<<<<<< HEAD
           <li><a href="info.php">informatie</a></li>
           <li><a href="winkelwagen">winkelwagen</a></li>
-=======
-          <li><a href="info.php">Informatie</a></li>
->>>>>>> fc7032bafa193dae4b302c99e4fbc955aa5e2283
         </ul>
       </div>
     </div>
