@@ -128,17 +128,21 @@
 
                 <p>
                     <h1>Ik heb klachten die passen bij het nieuwe coronavirus. Wat moet ik doen?</h1>
+                    <br>
                     <li>
-                        <b>Heb je verkoudheidsklachten, zoals neusverkoudheid, loopneus, keelpijn, lichte hoest of verhoging (tot 38 graden Celsius)? </b>
+                        <b>Heb je verkoudheidsklachten, zoals neusverkoudheid, loopneus, keelpijn, lichte hoest of verhoging (tot 38 graden Celsius)? </b><br>
                         Blijf thuis. Ziek uit. Doe geen boodschappen en ontvang geen bezoek. Laat anderen boodschappen doen, of laat ze bezorgen, zorg dat een ander de hond uitlaat. Voor huisgenoten zonder klachten gelden de regels die voor iedereen in Nederland gelden. Als je 24 uur lang geen klachten hebt, mag je weer naar buiten.
                     </li>
+                    <br>
                     <li>
-                        <b> Heb je verkoudheidsklachten en koorts (boven 38 graden Celsius) en/of benauwdheid? </b>
+                        <b> Heb je verkoudheidsklachten en koorts (boven 38 graden Celsius) en/of benauwdheid? </b><br>
                         Blijf thuis. Ziek uit. Doe geen boodschappen en ontvang geen bezoek. Heb je huisgenoten, dan mogen zij ook niet naar buiten. Als uitzondering hierop mogen alleen huisgenoten die geen klachten hebben even boodschappen doen. Als iedereen 24 uur geen klachten heeft, mag je weer naar buiten.
                     </li>
+                    <br>
                     <li>
                         Mensen die werken in cruciale beroepen of vitale processen zijn hiervan uitgezonderd; zij blijven pas thuis als zij zelf klachten met koorts hebben (overleg zo nodig met je werkgever).
                     </li>
+                    <br>
                     <li>Zorgmedewerkers met minimaal 24 uur milde klachten of ernstige klachten kunnen getest worden. Zij blijven zeker thuis met koorts, en bij voorkeur ook als ze alleen milde klachten zonder koorts hebben, totdat zij de testuitslag krijgen. Indien thuis blijven geen optie is, kan iemand met milde klachten nog kan werken als hij of zij daarvoor de juiste PBM persoonlijke beschermingsmiddelen draagt .</li>
                 </p>
                 <p>
