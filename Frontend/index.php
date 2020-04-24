@@ -26,7 +26,7 @@
           <li><a href="webshop.php">Webshop</a></li>
           <li><a href="risicogroep.php">Risicogroep</a></li>
           <li><a href="info.php">informatie</a></li>
-          <li><a href="winkelwagen">winkelwagen</a></li>
+          <li><a href="winkelwagen.php">winkelwagen</a></li>
         </ul>
       </div>
     </div>
