@@ -53,6 +53,10 @@
         <h1 style="text-align: center; font-size: 30px">zeep</h1>
         <img src="style/zeep.jpg" alt="zeep" style="width: 350px; height: 350px; padding-left: 100px"></img>
       </div>
+      <h1 style="font-weight: bold">&euro;5,00</h1>
+      <form>
+        <input type="number" min="1" max="10"><button type="button">aan winkel wagen toevoegen</button>
+      </form>
       <div id="beschrijving"><p>Bijzonder geschikt tegen huidveroudering Met aromatische oliën Gaat net zo lang mee als 3 normale douchegelflessen!</p></div>
 
           </div>

@@ -51,6 +51,10 @@
         <h1 style="text-align: center; font-size: 30px">handschoenen</h1>
         <img src="style/hand.jpg" alt="handschoenen" style="width: 350px; height: 350px; padding-left: 100px"></img>
       </div>
+      <h1 style="font-weight: bold">&euro;5,00</h1>
+      <form>
+        <input type="number" min="1" max="10"><button type="button">aan winkel wagen toevoegen</button>
+      </form>
       <div id="beschrijving"><p>Sterke nitril wegwerphandschoenen van een soepel materiaal voor een optimale bescherming met veel draagcomfort, een goede pasvorm en een goed tastgevoel.</p></div>
 
           </div>

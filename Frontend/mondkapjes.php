@@ -51,6 +51,10 @@
         <h1 style="text-align: center; font-size: 30px">mondkapjes</h1>
         <img src="style/mondkapjes.jpg" alt="mondkapjes" style="width: 350px; height: 350px; padding-left: 100px"></img>
       </div>
+      <h1 style="font-weight: bold">&euro;5,00</h1>
+      <form>
+        <input type="number" min="1" max="10"><button type="button">aan winkel wagen toevoegen</button>
+      </form>
       <div id="beschrijving"><p>Dit mondkapje is geschikt voor elk gezichtstype en heeft 3 lagen met een goede bescherming tegen infecties. 
                             Tevens bevat het een goede luchtdoorlatendheid door het gebruik van lichte materialen. Doordat warmte zich minder kan ophopen onder het masker,
                             zijn er minder huidirritaties.</p></div>
