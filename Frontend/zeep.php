@@ -2,6 +2,7 @@
 <html>
 
 <head>
+
   <title>zeep</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
@@ -27,8 +28,8 @@
           <li><a href="besmetting.php">Besmetting</a></li>
           <li class="selected"><a href="webshop.php">Webshop</a></li>
           <li><a href="risicogroep.php">Risicogroep</a></li>
-          <li><a href="info.php">informatie</a></li>
-          <li><a href="winkelwagen.php">winkelwagen</a></li>
+          <li><a href="info.php">Informatie</a></li>
+          <li><a href="winkelwagen.php">Winkelwagen</a></li>
 
 
         </ul>

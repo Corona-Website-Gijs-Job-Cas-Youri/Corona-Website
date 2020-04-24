@@ -25,8 +25,8 @@
           <li><a href="besmetting.php">Besmetting</a></li>
           <li><a href="webshop.php">Webshop</a></li>
           <li><a href="risicogroep.php">Risicogroep</a></li>
-          <li><a href="info.php">informatie</a></li>
-          <li><a href="winkelwagen.php">winkelwagen</a></li>
+          <li><a href="info.php">Informatie</a></li>
+          <li><a href="winkelwagen.php">Winkelwagen</a></li>
         </ul>
       </div>
     </div>
@@ -46,7 +46,7 @@
       </div>
       <div id="content">
         <h1>Welkom bij Covid_Info</h1>
-        <p>Hier vindt u het laatste nieuws omtrend het Corona virus (COVID19). Daarnaast kunt U hier alle tips en informatie van de Overheid en het RIVM (Rijksinstituut voor Volksgezondheid en Milieu) vinden. Tevens bieden wij de mogelijkheid om hier o.a. handzeep, mondkapjes en toiletpapier te bestellen.  Tot slot geven wij U tips tegen de verveling en andere bezigheden om u door deze moeilijke tijd te helpen.</p>
+        <p>Hier vindt u het laatste nieuws omtrend het Corona virus (COVID19). Daarnaast kunt U hier alle tips en informatie van de Overheid en het RIVM (Rijksinstituut voor Volksgezondheid en Milieu) vinden. Tevens bieden wij de mogelijkheid om hier handzeep, mondkapjes en toiletpapier te bestellen.  Tot slot geven wij U tips tegen de verveling en andere bezigheden om u door deze moeilijke tijd te helpen.</p>
 
         <h2>Wat kunt U doen?</h2>
 
@@ -63,7 +63,6 @@
     </div>
     <div id="footer">
     <p><a href="index.php">Home</a> | <a href="bezigheden.php">Bezigheden</a> | <a href="besmetting.php">Besmetting</a> | <a href="webshop.php">Webshop</a> | <a href="risicogroep.php">Risicogroep</a> | <a href="info.php">informatie</a></p>
-      <p>Copyright &copy; simple_light | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
     </div>
   </div>
 </body>
