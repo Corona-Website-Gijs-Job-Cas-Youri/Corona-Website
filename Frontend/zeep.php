@@ -29,6 +29,8 @@
           <li><a href="risicogroep.php">Risicogroep</a></li>
           <li><a href="info.php">informatie</a></li>
           <li><a href="winkelwagen">winkelwagen</a></li>
+
+
         </ul>
       </div>
     </div>
