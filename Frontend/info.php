@@ -152,6 +152,10 @@
 
                 </p>
                 <p>
+                    <h1>Hoe weet je of je genezen bent van het Coronavirus?</h1>
+                    Als je je beter voelt en 24 uur lang geen gezondheidsklachten hebt. Dat betekent: geen koorts, geen neusverkoudheid en niet hoesten. 
+                </p>
+                <p>
                     voor meer informatie klik <a href="https://www.rivm.nl/coronavirus-covid-19/vragen-antwoorden#eigengezondheid">dit</a> linkje.
                     </p>
             </div>
