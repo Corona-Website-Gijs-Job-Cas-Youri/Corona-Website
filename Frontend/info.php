@@ -158,7 +158,6 @@
                 <p>
                     voor meer informatie klik <a href="https://www.rivm.nl/coronavirus-covid-19/vragen-antwoorden#eigengezondheid">dit</a> linkje.
                     </p>
-                    <p>lalalallaallaldsdlmashoan</p>
             </div>
         </div>
         <div id="footer">
