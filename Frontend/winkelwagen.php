@@ -1,3 +1,6 @@
+<?php 
+  session_start();
+?>
 <!DOCTYPE HTML>
 <html>
 
@@ -35,8 +38,13 @@
     <div id="site_content">
     
       <div id="content">
-      
-        </form>
+        <?php 
+        if(!isset($_SESSION['bestelling'])){
+
+        }else{
+          echo $_SESSION['bestelling'];
+        }
+        ?>
       </div>
     </div>
     <div id="footer">
