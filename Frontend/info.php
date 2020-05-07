@@ -37,13 +37,10 @@
                 <p>Er zijn bijna geen landen meer waar er geen Covid 19 is, toch blijven mensen naar buiten gaan.<br /><a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">lees meer</a></p>
                 <h1>STATISTIEKEN</h1>
                 <ul>
-                    <li>aantal besmetingen in nederland:<p id="nummer"> 33.405</p>
-                    </li>
-                    <li>aantal doden in nederland: <p id="nummer">3.751</p>
-                    </li>
-                    <li>aantal besmetingen wereld wijd: <p id="nummer">2.486.964</p>
-                    </li>
-                    <li>aantal doden wereld wijd: <p id="nummer">170.418</li>
+                    <li>aantal besmetingen in Nederland:<p id="nummer"> 33.405</p></li>
+                    <li>aantal doden in Nederland: <p id="nummer">3.751</p></li>
+                    <li>aantal besmetingen wereldwijd: <p id="nummer">2.486.964</p></li>
+                    <li>aantal doden wereldwijd: <p id="nummer">170.418</li>
                 </ul>
 
             </div>
