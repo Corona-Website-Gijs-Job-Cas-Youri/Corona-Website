@@ -51,7 +51,7 @@
         <p>
           Hier kunt uw bekijken hoe veilig uw stad en directe omgeving is.<br> 
           <select>  
-          <option value="Select">Kies provincie</option>}  
+          <option value="Select">Kies provincie</option>
           <option value="limburg">Limburg</option>  
           <option value="brabant">Brabant</option>  
           <option value="zeeland">Zeeland</option>  
