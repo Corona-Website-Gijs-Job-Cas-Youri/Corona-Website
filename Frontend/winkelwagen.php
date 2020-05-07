@@ -57,7 +57,7 @@
             <tr>
               <td><?php echo $_SESSION['product1'] ?></td>
               <td><?php echo $_SESSION['bestelling1']?></td>
-              <td><?php echo $_SESSION['prijsTotaal1']?>&euro;</td>
+              <td>&euro;<?php echo $_SESSION['prijsTotaal1']?></td>
             </tr>
             <?php 
             }
@@ -67,7 +67,7 @@
             <tr>
               <td><?php echo $_SESSION['product2'] ?></td>
               <td><?php echo $_SESSION['bestelling2']?></td>
-              <td><?php echo $_SESSION['prijsTotaal2']?>&euro;</td>
+              <td>&euro;<?php echo $_SESSION['prijsTotaal2']?></td>
             </tr>
             <?php 
             }
@@ -77,12 +77,14 @@
             <tr>
               <td><?php echo $_SESSION['product3'] ?></td>
               <td><?php echo $_SESSION['bestelling3']?></td>
-              <td><?php echo $_SESSION['prijsTotaal3']?>&euro;</td>
+              <td>&euro;<?php echo $_SESSION['prijsTotaal3']?></td>
             </tr>
             <?php 
             }
+            $totaalPrijs = $_SESSION['prijsTotaal1'] + $_SESSION['prijsTotaal2'] + $_SESSION['prijsTotaal3'];
             ?>
           </table>
+          <p style="font-size: large">totaal:&euro;<?php echo $totaalPrijs ?></p>
           <?php
         }
         ?>
