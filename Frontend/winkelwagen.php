@@ -51,17 +51,37 @@
               <th>aantal</th>
               <th>totaal prijs</th>
             </tr>
-            <?php
-            for($aantalProducten = 0; $aantalProducten == $_SESSION['producten']; $aantalProducten++){
+            <?php 
+              if(isset($_SESSION['bestelling1'])){
             ?>
             <tr>
-              <td><?php echo $_SESSION['product'] ?></td>
-              <td><?php echo $_SESSION['bestelling']?></td>
-              <td><?php echo $_SESSION['prijsTotaal']?>&euro;</td>
+              <td><?php echo $_SESSION['product1'] ?></td>
+              <td><?php echo $_SESSION['bestelling1']?></td>
+              <td><?php echo $_SESSION['prijsTotaal1']?>&euro;</td>
             </tr>
-            <?php
-          }
-          ?>
+            <?php 
+            }
+            
+              if(isset($_SESSION['bestelling2'])){
+            ?>
+            <tr>
+              <td><?php echo $_SESSION['product2'] ?></td>
+              <td><?php echo $_SESSION['bestelling2']?></td>
+              <td><?php echo $_SESSION['prijsTotaal2']?>&euro;</td>
+            </tr>
+            <?php 
+            }
+             
+              if(isset($_SESSION['bestelling3'])){
+            ?>
+            <tr>
+              <td><?php echo $_SESSION['product3'] ?></td>
+              <td><?php echo $_SESSION['bestelling3']?></td>
+              <td><?php echo $_SESSION['prijsTotaal3']?>&euro;</td>
+            </tr>
+            <?php 
+            }
+            ?>
           </table>
           <?php
         }
