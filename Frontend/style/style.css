@@ -48,7 +48,7 @@ body {
 
 p {
   padding: 0 0 20px 0;
-  line-height: 1.7em;
+  line-height: 1.3em;
 }
 
 img {
@@ -79,7 +79,7 @@ h4,
 h5,
 h6 {
   margin: 0;
-  padding: 0 0 5px 0;
+  padding: 0 0 10px 0;
   font: normal 120% arial, sans-serif;
   color: #b60000;
 }
