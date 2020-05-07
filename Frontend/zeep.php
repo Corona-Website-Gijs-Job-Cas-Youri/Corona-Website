@@ -1,3 +1,6 @@
+<?php 
+  session_start();
+?>
 <!DOCTYPE HTML>
 <html>
 
@@ -55,12 +58,22 @@
         <img src="style/zeep.jpg" alt="zeep" style="width: 350px; height: 350px; padding-left: 100px"></img>
       </div>
       <h1 style="font-weight: bold">&euro;5,00</h1>
-      <form>
-        <input type="number" min="1" max="10"><button type="button">aan winkel wagen toevoegen</button>
-      </form>
+      <form method="post">
+        <input type="number" min="1" max="10" name="aantal"><button name="toevoegen">aan winkel wagen toevoegen</button>
+      
       <div id="beschrijving"><p>Bijzonder geschikt tegen huidveroudering Met aromatische oliën Gaat net zo lang mee als 3 normale douchegelflessen!</p></div>
 
           </div>
+          <?php
+          if(isset($_POST['toevoegen'])){
+            $_SESSION['product'] = "zeep";
+            $_SESSION['bestelling'] = $_POST['aantal'];
+            $_SESSION['prijsTotaal'] = 5 * $_POST['aantal'];
+            $_SESSION['producten'] + 1;
+
+            header("location: winkelwagen.php");
+          }
+          ?>
         </form>
       </div>
     </div>

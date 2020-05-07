@@ -1,5 +1,7 @@
 <?php 
   session_start();
+
+  $_SESSION['producten'] = 0;
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -42,9 +44,32 @@
         if(!isset($_SESSION['bestelling'])){
 
         }else{
-          echo $_SESSION['bestelling'];
+          ?> 
+          <table>
+            <tr>
+              <th>product naam</th>
+              <th>aantal</th>
+              <th>totaal prijs</th>
+            </tr>
+            <?php
+            for($aantalProducten = 0; $aantalProducten == $_SESSION['producten']; $aantalProducten++){
+            ?>
+            <tr>
+              <td><?php echo $_SESSION['product'] ?></td>
+              <td><?php echo $_SESSION['bestelling']?></td>
+              <td><?php echo $_SESSION['prijsTotaal']?>&euro;</td>
+            </tr>
+            <?php
+          }
+          ?>
+          </table>
+          <?php
         }
         ?>
+        <form action="winkelwagen.php" method="get">
+        <button>bestellen</button>
+        <button type="submit" formaction="webshop.php">verder winkelen</button>
+        </form>
       </div>
     </div>
     <div id="footer">
