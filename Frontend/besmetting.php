@@ -50,7 +50,20 @@
         <h1>Besmettings gevaar</h1>
         <p>
           Hier kunt uw bekijken hoe veilig uw stad en directe omgeving is.<br> 
-          <input type="text">
+          <select>  
+          <option value="Select">Kies provincie</option>}  
+          <option value="limburg">Limburg</option>  
+          <option value="brabant">Brabant</option>  
+          <option value="zeeland">Zeeland</option>  
+          <option value="zuidholland">Zuid-Holland</option>  
+          <option value="noordholland">Noord-Holland</option>  
+          <option value="utrecht">Utrecht</option>  
+          <option value="gelderland">Gelderland</option>  
+          <option value="overijssel">Overijssel</option>
+          <option value="flevoland">Flevoland</option> 
+          <option value="groningen">Groningen</option>
+          <option value="friesland">Friesland</option>    
+          </select> 
           <button type="submit">zoek</button><br>
           (Placeholder voor kans van besmetting)<br>
           <br>
