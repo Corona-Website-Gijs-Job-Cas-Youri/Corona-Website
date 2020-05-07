@@ -40,6 +40,8 @@
     <div id="site_content">
     
       <div id="content">
+
+      <div id="winkelwagen">
         <?php 
         if(!isset($_SESSION['bestelling'])){
 
@@ -51,6 +53,7 @@
               <th>aantal</th>
               <th>totaal prijs</th>
             </tr>
+            <div id="productwinkel">
             <?php 
               if(isset($_SESSION['bestelling1'])){
             ?>
@@ -61,6 +64,9 @@
             </tr>
             <?php 
             }
+            ?>
+            </div>
+            <?php
             
               if(isset($_SESSION['bestelling2'])){
             ?>
@@ -92,6 +98,7 @@
         <button>bestellen</button>
         <button type="submit" formaction="webshop.php">verder winkelen</button>
         </form>
+      </div>
       </div>
     </div>
     <div id="footer">
