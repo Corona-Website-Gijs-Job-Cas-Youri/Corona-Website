@@ -66,7 +66,10 @@
           </div>
           <?php 
           if(isset($_POST['toevoegen'])){
+            $_SESSION['product'] = "mondkapjes";
             $_SESSION['bestelling'] = $_POST['aantal'];
+            $_SESSION['prijsTotaal'] = 5 * $_POST['aantal'];
+            $_SESSION['producten'] + 1;
 
             header("location: winkelwagen.php");
           }

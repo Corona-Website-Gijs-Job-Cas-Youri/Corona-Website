@@ -61,7 +61,7 @@
         </ul>
       </div>
         <div id="nieuwsbrief_bar" >
-          <a href="Nieuwsbrief.pdf">Abonneer hier op de nieuwsbrief!</a>
+          <a id="nieuwsbrief" href="Nieuwsbrief.pdf" target="_blank">Abonneer hier op de nieuwsbrief!</a>
         </div>
     </div>
     <div id="footer">
