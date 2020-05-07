@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html>
+<?php require('db_conn.php')?>
 
 <head>
     <title>Informatie</title>
@@ -8,6 +9,7 @@
     <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
     <link rel="stylesheet" type="text/css" href="style/style.css" />
 </head>
+
 
 <body>
     <div id="main">
@@ -37,9 +39,12 @@
                 <p>Er zijn bijna geen landen meer waar er geen Covid 19 is, toch blijven mensen naar buiten gaan.<br /><a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">lees meer</a></p>
                 <h1>STATISTIEKEN</h1>
                 <ul>
-                    <li>aantal besmetingen in Nederland:<p id="nummer"> 33.405</p></li>
-                    <li>aantal doden in Nederland: <p id="nummer">3.751</p></li>
-                    <li>aantal besmetingen wereldwijd: <p id="nummer">2.486.964</p></li>
+                    <li>aantal besmetingen in Nederland:<p id="nummer"> 33.405</p>
+                    </li>
+                    <li>aantal doden in Nederland: <p id="nummer">3.751</p>
+                    </li>
+                    <li>aantal besmetingen wereldwijd: <p id="nummer">2.486.964</p>
+                    </li>
                     <li>aantal doden wereldwijd: <p id="nummer">170.418</li>
                 </ul>
 
@@ -151,11 +156,11 @@
                 </p>
                 <p>
                     <h1>Hoe weet je of je genezen bent van het Coronavirus?</h1>
-                    Als je je beter voelt en 24 uur lang geen gezondheidsklachten hebt. Dat betekent: geen koorts, geen neusverkoudheid en niet hoesten. 
+                    Als je je beter voelt en 24 uur lang geen gezondheidsklachten hebt. Dat betekent: geen koorts, geen neusverkoudheid en niet hoesten.
                 </p>
                 <p>
                     voor meer informatie klik <a href="https://www.rivm.nl/coronavirus-covid-19/vragen-antwoorden#eigengezondheid">dit</a> linkje.
-                    </p>
+                </p>
             </div>
         </div>
         <div id="footer">
