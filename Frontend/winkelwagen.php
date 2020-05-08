@@ -87,14 +87,26 @@
             </tr>
             <?php 
             }
-            if(isset($_SESSION['prijsTotaal1'])){
-            $totaalPrijs = $_SESSION['prijsTotaal1'] + $_SESSION['prijsTotaal2'] + $_SESSION['prijsTotaal3'];
+            if(isset($_SESSION['bestelling1'])){
+            $totaalPrijs = $_SESSION['prijsTotaal1'];
             }
-            if(isset($_SESSION['prijsTotaal2'])){
-            $totaalPrijs = $_SESSION['prijsTotaal1'] + $_SESSION['prijsTotaal2'] + $_SESSION['prijsTotaal3'];
+            elseif(isset($_SESSION['bestelling2'])){
+            $totaalPrijs = $_SESSION['prijsTotaal2'];
             }
-            if(isset($_SESSION['prijsTotaal3'])){
-            $totaalPrijs = $_SESSION['prijsTotaal1'] + $_SESSION['prijsTotaal2'] + $_SESSION['prijsTotaal3'];
+            elseif(isset($_SESSION['bestelling3'])){
+            $totaalPrijs = $_SESSION['prijsTotaal3'];
+            }
+            elseif(!isset($_SESSION['bestelling1'])){
+            $totaalPrijs = $_SESSION['prijsTotaal2'] + $_SESSION['prijsTotaal3'];
+            }
+            elseif(!isset($_SESSION['bestelling2'])){
+            $totaalPrijs = $_SESSION['prijsTotaal1'] + $_SESSION['prijsTotaal3'];
+            }
+            elseif(!isset($_SESSION['bestelling3'])){
+            $totaalPrijs = $_SESSION['prijsTotaal1'] + $_SESSION['prijsTotaal2'];
+            }
+            else{
+              $_SESSION['prijsTotaal1'] + $_SESSION['prijsTotaal2'] + $_SESSION['prijsTotaal3'];
             }
 
             ?>
