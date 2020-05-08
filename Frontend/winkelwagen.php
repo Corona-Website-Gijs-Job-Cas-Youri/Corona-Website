@@ -87,7 +87,16 @@
             </tr>
             <?php 
             }
+            if(isset($_SESSION['prijsTotaal1'])){
             $totaalPrijs = $_SESSION['prijsTotaal1'] + $_SESSION['prijsTotaal2'] + $_SESSION['prijsTotaal3'];
+            }
+            if(isset($_SESSION['prijsTotaal2'])){
+            $totaalPrijs = $_SESSION['prijsTotaal1'] + $_SESSION['prijsTotaal2'] + $_SESSION['prijsTotaal3'];
+            }
+            if(isset($_SESSION['prijsTotaal3'])){
+            $totaalPrijs = $_SESSION['prijsTotaal1'] + $_SESSION['prijsTotaal2'] + $_SESSION['prijsTotaal3'];
+            }
+
             ?>
           </table>
           <p style="font-size: large">totaal:&euro;<?php echo $totaalPrijs ?></p>
