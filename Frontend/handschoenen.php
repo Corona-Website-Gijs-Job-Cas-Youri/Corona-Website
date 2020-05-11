@@ -58,7 +58,8 @@
       <form method="post">
         <input type="number" min="1" max="10" name="aantal"><button name="toevoegen">aan winkel wagen toevoegen</button>
       
-      <div id="beschrijving"><p>Sterke nitril wegwerphandschoenen van een soepel materiaal voor een optimale bescherming met veel draagcomfort, een goede pasvorm en een goed tastgevoel.</p></div>
+      <div id="beschrijving"><p>Sterke nitril wegwerphandschoenen van een soepel materiaal. <br>
+        Voor een optimale bescherming met veel draagcomfort, een goede pasvorm en een goed tastgevoel.</p></div>
 
           </div>
           <?php
