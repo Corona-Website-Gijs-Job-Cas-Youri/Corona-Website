@@ -1,6 +1,5 @@
 <?php
 include('C:\xampp\htdocs\Corona-Website\Frontend\functies.php');
-locatie();
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -75,7 +74,9 @@ locatie();
             <button type="submit">zoek</button><br>
           </form>
 
-
+          <?php
+          locatie();
+          ?>
           <br>
           <br>
           Hier is voor een voorbeeld de meest recente kaart van besmettingen per gemeente
