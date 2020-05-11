@@ -51,7 +51,7 @@
           <li>aantal doden wereldwijd: <p id="nummer">170.418</li>
         </ul>
       </div>
-      
+
       <div id="content">
         <h1>Besmettings gevaar</h1>
         <p>
@@ -72,7 +72,7 @@
               <option value="Friesland">Friesland</option>
             </select>
             <button type="submit">zoek</button><br>
-          </form>
+         
           <?php
           include('C:\xampp\htdocs\Corona-Website\Frontend/db_conn.php');
           OpenCon();
@@ -87,6 +87,7 @@
         </p>
       </div>
     </div>
+    </form>
     <div id="footer">
       <p><a href="index.php">Home</a> | <a href="bezigheden.php">Bezigheden</a> | <a href="besmetting.php">Besmetting</a> | <a href="webshop.php">Webshop</a> | <a href="risicogroep.php">Risicogroep</a> | <a href="info.php">informatie</a></p>
       <p>Copyright &copy; simple_light | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
