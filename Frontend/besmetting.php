@@ -60,7 +60,7 @@
             <select name="provincie" id="provincie" onchange="this.form.submit()">
               <option value="Select">Kies provincie</option>
               <option value="Limburg">Limburg</option>
-              <option value="Brabant">Brabant</option>
+              <option value="Noord-Brabant">Brabant</option>
               <option value="Zeeland">Zeeland</option>
               <option value="Zuid-holland">Zuid-Holland</option>
               <option value="Noord-holland">Noord-Holland</option>
@@ -76,10 +76,10 @@
           <?php
           include('C:\xampp\htdocs\Corona-Website\Frontend/db_conn.php');
           OpenCon();
-           $provincie = $_POST['provincie'];
-           $sql = "SELECT `Aantal_Besmet` FROM `besmet` WHERE `Provincie` == $provincie";
-           $result = mysqli_query(OpenCon(), $sql);
-           $output = mysqli_fetch_assoc($result)
+          $provincie = $_POST['provincie'];
+          $sql = "SELECT `Aantal_Besmet` FROM `besmet` WHERE `Provincie` == $provincie";
+          $result = mysqli_query(OpenCon(), $sql);
+          $output = mysqli_fetch_assoc($result);
           ?><br>
           <br>
           Hier is voor een voorbeeld de meest recente kaart van besmettingen per gemeente
