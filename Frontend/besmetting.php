@@ -36,22 +36,19 @@ include('C:\xampp\htdocs\Corona-Website\Frontend\functies.php');
       </div>
     </div>
     <div id="site_content">
-      <div class="sidebar">
+    <div class="sidebar">
         <h1>Laatste Nieuws</h1>
         <h5>21-4-2020</h5>
         <p>Er zijn bijna geen landen meer waar er geen Covid 19 is, toch blijven mensen naar buiten gaan.<br /><a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">lees meer</a></p>
         <h1>STATISTIEKEN</h1>
         <ul>
-          <li>aantal besmetingen in Nederland:<p id="nummer"> 33.405</p>
-          </li>
-          <li>aantal doden in Nederland: <p id="nummer">3.751</p>
-          </li>
-          <li>aantal besmetingen wereldwijd: <p id="nummer">2.486.964</p>
-          </li>
+          <li>aantal besmetingen in Nederland:<p id="nummer"> 33.405</p></li>
+          <li>aantal doden in Nederland: <p id="nummer">3.751</p></li>
+          <li>aantal besmetingen wereldwijd: <p id="nummer">2.486.964</p></li>
           <li>aantal doden wereldwijd: <p id="nummer">170.418</li>
         </ul>
+        
       </div>
-
       <div id="content">
         <h1>Besmettings gevaar</h1>
         <p>
@@ -85,10 +82,9 @@ include('C:\xampp\htdocs\Corona-Website\Frontend\functies.php');
       </div>
     </div>
     <div id="footer">
-      <p><a href="index.php">Home</a> | <a href="bezigheden.php">Bezigheden</a> | <a href="besmetting.php">Besmetting</a> | <a href="webshop.php">Webshop</a> | <a href="risicogroep.php">Risicogroep</a> | <a href="info.php">informatie</a></p>
+    <p><a href="index.php">Home</a> | <a href="bezigheden.php">Bezigheden</a> | <a href="besmetting.php">Besmetting</a> | <a href="webshop.php">Webshop</a> | <a href="risicogroep.php">Risicogroep</a> | <a href="info.php">informatie</a></p>
       <p>Copyright &copy; simple_light | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
     </div>
   </div>
 </body>
-
 </html>
