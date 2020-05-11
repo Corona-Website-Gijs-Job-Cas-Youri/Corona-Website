@@ -2,11 +2,10 @@
 
 function locatie()
 {
-    
-    $dbhost = "localhost";
-    $dbuser = "gheetebrij_gheetebrij";
-    $dbpass = "bHdmHP1FrKHH";
-    $db = "gheetebrij_Corona";
-
-
+    include('C:\xampp\htdocs\Corona-Website\Frontend/db_conn.php');
+    OpenCon();
+    $provincie = $_POST['provincie'];
+    $sql = "SELECT `Aantal_Besmet` FROM `besmet` WHERE `Provincie` == $provincie";
+    $result = mysqli_query(OpenCon(), $sql);
+    $output = mysqli_fetch_assoc($result);
 }
