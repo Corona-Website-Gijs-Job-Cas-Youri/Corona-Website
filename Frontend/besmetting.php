@@ -72,7 +72,9 @@
               <option value="Friesland">Friesland</option>
             </select>
             <button type="submit">zoek</button><br>
-         
+          </form>
+          Hier is voor een voorbeeld de meest recente kaart van besmettingen per gemeente
+          <img src="style/coronakaart.png">
           <?php
           include('C:\xampp\htdocs\Corona-Website\Frontend/db_conn.php');
           OpenCon();
@@ -82,12 +84,10 @@
           $output = mysqli_fetch_assoc($result);
           ?><br>
           <br>
-          Hier is voor een voorbeeld de meest recente kaart van besmettingen per gemeente
-          <img src="style/coronakaart.png">
+
         </p>
       </div>
     </div>
-    </form>
     <div id="footer">
       <p><a href="index.php">Home</a> | <a href="bezigheden.php">Bezigheden</a> | <a href="besmetting.php">Besmetting</a> | <a href="webshop.php">Webshop</a> | <a href="risicogroep.php">Risicogroep</a> | <a href="info.php">informatie</a></p>
       <p>Copyright &copy; simple_light | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
