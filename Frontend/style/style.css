@@ -497,5 +497,13 @@ color: black;
 
 .border{
   border: 1px solid black;
+}
+
+.borderrij{
+  border: 0px;
+}
+
+.borderrijtop{
+  border: 0px;
   border-top: 1px solid black;
 }
