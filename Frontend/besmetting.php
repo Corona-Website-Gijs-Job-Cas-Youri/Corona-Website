@@ -1,5 +1,5 @@
 <?php
-    include('C:\xampp\htdocs\Corona-Website\Frontend/functies.php');
+include('C:\xampp\htdocs\Corona-Website\Frontend\functies.php');
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -72,10 +72,10 @@
               <option value="Friesland">Friesland</option>
             </select>
             <button type="submit">zoek</button><br>
-
+          </form>
 
           <?php
-         locatie();
+          locatie();
           ?>
           <br>
           <br>
