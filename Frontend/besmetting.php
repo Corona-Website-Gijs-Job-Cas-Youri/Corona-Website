@@ -1,5 +1,5 @@
-<?php 
-
+<?php
+include('C:\xampp\htdocs\Corona-Website\Frontend\functies.php');
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -52,36 +52,29 @@
       <div id="content">
         <h1>Besmettings gevaar</h1>
         <p>
-          Hier kunt uw bekijken hoe veilig uw stad en directe omgeving is.<br> 
-        <form method="POST" action="besmetting.php">
-          <select name="provincie" id="provincie" onchange="this.form.submit()">  
-          <option value="Select">Kies provincie</option>
-          <option value="Limburg">Limburg</option>  
-          <option value="Noord-Brabant">Brabant</option>  
-          <option value="Zeeland">Zeeland</option>  
-          <option value="Zuid-Holland">Zuid-Holland</option>  
-          <option value="Noord-Holland">Noord-Holland</option>  
-          <option value="Utrecht">Utrecht</option>  
-          <option value="Gelderland">Gelderland</option>  
-          <option value="Overijssel">Overijssel</option>
-          <option value="Flevoland">Flevoland</option> 
-          <option value="Groningen">Groningen</option>
-          <option value="Friesland">Friesland</option>    
-          </select> 
-          <button type="submit">zoek</button><br>
-        </form>
+          Hier kunt uw bekijken hoe veilig uw stad en directe omgeving is.<br>
+          <form method="POST" action="besmetting.php">
+            <select name="provincie" id="provincie" onchange="this.form.submit()">
+              <option value="Select">Kies provincie</option>
+              <option value="Limburg">Limburg</option>
+              <option value="Noord-Brabant">Brabant</option>
+              <option value="Zeeland">Zeeland</option>
+              <option value="Zuid-holland">Zuid-Holland</option>
+              <option value="Noord-holland">Noord-Holland</option>
+              <option value="Utrecht">Utrecht</option>
+              <option value="Gelderland">Gelderland</option>
+              <option value="Overijssel">Overijssel</option>
+              <option value="Flevoland">Flevoland</option>
+              <option value="Groningen">Groningen</option>
+              <option value="Friesland">Friesland</option>
+            </select>
+            <button type="submit">zoek</button><br>
+          </form>
+
           <?php
-          include('C:\xampp\htdocs\Corona-Website\Frontend/db_conn.php');
-          OpenCon();
-          $provincie = $_POST['provincie'];
-
-
-           
-           $sql = "SELECT `Aantal_Besmet` FROM `besmet` WHERE `Provincie` == $provincie";
-           $result = mysqli_query(OpenCon(), $sql);
-           $output = mysqli_fetch_assoc($result)
-          //  echo "In " + $provincie + " zijn " + $output + " mensen besmet";
-          ?><br>
+          locatie();
+          ?>
+          <br>
           <br>
           Hier is voor een voorbeeld de meest recente kaart van besmettingen per gemeente
           <img src="style/coronakaart.png">
