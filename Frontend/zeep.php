@@ -61,7 +61,9 @@
       <form method="post">
         <input type="number" min="1" max="15" name="aantal"><button name="toevoegen">aan winkel wagen toevoegen</button>
       
-      <div id="beschrijving"><p>Bijzonder geschikt tegen huidveroudering Met aromatische oliën Gaat net zo lang mee als 3 normale douchegelflessen!</p></div>
+      <div id="beschrijving"><p>Bijzonder geschikt tegen huidveroudering.
+        <br> Met aromatische oliën.
+        <br> Gaat net zo lang mee als 3 normale douchegelflessen!</p></div>
 
           </div>
           <?php

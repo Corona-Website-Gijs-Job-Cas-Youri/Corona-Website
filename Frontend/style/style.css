@@ -37,6 +37,12 @@ body {
   margin-top: 10px;
 }
 
+#beschrijving p{
+  text-align: center;
+  padding: 10px;
+  line-height: 1.5em;
+}
+
 .grafiek{
   width: 600px;
   height: 420px;
