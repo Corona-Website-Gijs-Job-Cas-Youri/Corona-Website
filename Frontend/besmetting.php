@@ -75,60 +75,6 @@
           OpenCon();
           $provincie = $_POST['provincie'];
 
-          //  if($provincie == "Limburg")
-          //  {
-          //    echo "In Limburg zijn 4270 mensen besmet geraakt.";
-          //  }
-
-          //  if($provincie == "Noord-Brabant")
-          //  {
-          //    echo "In Brabant zijn 8468 mensen besmet geraakt.";
-          //  }
-
-          //  if($provincie == "Zeeland")
-          //  {
-          //    echo "In Zeeland zijn 595 mensen besmet geraakt.";
-          //  }
-
-          //  if($provincie == "Zuid-Holland")
-          //  {
-          //    echo "In zuid-Holland zijn 85270 mensen besmet geraakt.";
-          //  }
-
-          //  if($provincie == "Noord-Holland")
-          //  {
-          //    echo "In Noord-Holland zijn 6012 mensen besmet geraakt.";
-          //  }
-
-          //  if($provincie == "Utrecht")
-          //  {
-          //    echo "In Utrecht zijn 2964 mensen besmet geraakt.";
-          //  }
-
-          //  if($provincie == "Gelderland")
-          //  {
-          //    echo "In Gelderland zijn 5311 mensen besmet geraakt.";
-          //  }
-
-          //  if($provincie == "Overijssel")
-          //  {
-          //    echo "In Overijssel zijn 2800 mensen besmet geraakt.";
-          //  }
-
-          //  if($provincie == "Flevoland")
-          //  {
-          //    echo "In Flevoland zijn 771 mensen besmet geraakt.";
-          //  }
-           
-          //  if($provincie == "Groningen")
-          //  {
-          //    echo "In Groningen zijn 345 mensen besmet geraakt.";
-          //  }
-
-          //  if($provincie == "Friesland")
-          //  {
-          //    echo "In Frieland zijn 535 mensen besmet geraakt.";
-          //  }
            
            $sql = "SELECT `Aantal_Besmet` FROM `besmet` WHERE `Provincie` == $provincie";
            $result = mysqli_query(OpenCon(), $sql);
