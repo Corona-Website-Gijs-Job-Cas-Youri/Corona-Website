@@ -36,7 +36,7 @@
     <div class="sidebar">
         <h1>Laatste Nieuws</h1>
         <h5>21-4-2020</h5>
-        <p>Er zijn bijna geen landen meer waar er geen Covid 19 is, toch blijven mensen naar buiten gaan.<br /><a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">lees meer</a></p>
+        <p>Er zijn bijna geen landen meer waar er geen Covid 19 is, toch blijven mensen naar buiten gaan.<br /><a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" target="_blank">lees meer</a></p>
         <h1>STATISTIEKEN</h1>
         <ul>
           <li>aantal besmetingen in Nederland:<p id="nummer"> 33.405</p></li>
@@ -63,23 +63,23 @@
 
           <li><h4>Opdrukken</h4>
           <p>Het is een goede oefening om je armspieren en borstspieren sterk te houden.</p>
-          Klik <a href="https://voeding-en-fitness.nl/push-ups-uitvoering-techniek-tips/">hier</a> voor tips bij het opdrukken.</li>
+          Klik <a href="https://voeding-en-fitness.nl/push-ups-uitvoering-techniek-tips/"  target="_blank">hier</a> voor tips bij het opdrukken.</li>
 
           <li><h4>Planken</h4>
           <p>Een simpele en uitstekende oefening voor jong en oud. Deze oefening traint de buikspieren.</p>
-          Klik <a href="https://drogespieren.nl/krachttraining/planking">hier</a> voor tips bij het Planken</li>
+          Klik <a href="https://drogespieren.nl/krachttraining/planking"  target="_blank">hier</a> voor tips bij het Planken</li>
 
           <li><h4>Hardlopen</h4>
           <p>Het is een goede afleiding van de crisis waarbij je je conditie opbouwt en even lekker een frisse neus kan halen.</p>
-          Klik <a href="https://sochicken.nl/beginnen-met-hardlopen">hier</a> voor tips bij het hardlopen</li>
+          Klik <a href="https://sochicken.nl/beginnen-met-hardlopen"  target="_blank">hier</a> voor tips bij het hardlopen</li>
 
           <li><h4>Yoga</h4>
           <p>Het helpt je ontspannen en lenig te worden.</p>
-          Klik hier <a href="https://www.yogashop.nl/nl/blogs/yoga-en-meditatie/yoga-voor-beginners/">hier</a> voor tips bij yoga.</li>
+          Klik hier <a href="https://www.yogashop.nl/nl/blogs/yoga-en-meditatie/yoga-voor-beginners/"  target="_blank">hier</a> voor tips bij yoga.</li>
 
           <li><h4>Squats</h4>
           <p>Een goede oefening voor de beenspieren.</p>
-          Klik <a href="https://www.fit.nl/fitnessoefeningen/squat">hier</a> voor tips bij het squatten.</li>
+          Klik <a href="https://www.fit.nl/fitnessoefeningen/squat"  target="_blank">hier</a> voor tips bij het squatten.</li>
           
           </ul>
           
@@ -88,7 +88,7 @@
           <ul>
           <li><h4>Kijk een film</h4>
           <p>Een film is een goede afleiding die je ook met het hele gezin kunt kijken.</p>
-          <p>klik <a href="https://www.filmvandaag.nl/top100">hier</a> voor voorbeelden</p></li>
+          <p>klik <a href="https://www.filmvandaag.nl/top100"  target="_blank">hier</a> voor voorbeelden</p></li>
 
           <li><h4>Klussen</h4>
           <p>Nu je toch meer tijd hebt, kun je die tijd mooi gebruiken om aan je huis of tuin te werken.</p></li>
