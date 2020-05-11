@@ -50,8 +50,8 @@
           </li>
           <li>aantal doden wereldwijd: <p id="nummer">170.418</li>
         </ul>
-
       </div>
+      
       <div id="content">
         <h1>Besmettings gevaar</h1>
         <p>
