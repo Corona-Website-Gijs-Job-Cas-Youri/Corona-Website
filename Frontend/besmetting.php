@@ -72,7 +72,7 @@
               <option value="Friesland">Friesland</option>
             </select>
             <button type="submit">zoek</button><br>
-          </form>
+
 
           <?php
          locatie();
