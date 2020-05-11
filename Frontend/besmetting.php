@@ -73,7 +73,7 @@
           <?php
           include('C:\xampp\htdocs\Corona-Website\Frontend/db_conn.php');
           OpenCon();
-          //  $provincie = $_POST['provincie'];
+          $provincie = $_POST['provincie'];
 
           //  if($provincie == "Limburg")
           //  {
