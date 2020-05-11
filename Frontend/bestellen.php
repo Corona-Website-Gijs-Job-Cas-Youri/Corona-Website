@@ -1,12 +1,21 @@
 <?php 
   session_start();
+
+  require('db_conn.php');
+
+  if(isset($_POST['bestellen'])){
+
+    $_SESSION['Email'] = $_POST['Email'];
+
+    $sql_insert = "INSERT INTO bestelling(Email, Handschoenen, Mondkapjes, Zeep, Tot_Prijs) 
+                    VALUES('$_SESSION[Email]', $_SESSION[bestelling1], $_SESSION[bestelling2], $_SESSION[bestelling3], $_SESSION[prijsTotaal] )";
+  }
 ?>
 <!DOCTYPE HTML>
 <html>
 
 <head>
-
-  <title>zeep</title>
+  <title>Winkelwagen</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
@@ -29,52 +38,27 @@
           <li><a href="index.php">Home</a></li>
           <li><a href="bezigheden.php">Bezigheden</a></li>
           <li><a href="besmetting.php">Besmetting</a></li>
-          <li class="selected"><a href="webshop.php">Webshop</a></li>
+          <li><a href="webshop.php">Webshop</a></li>
           <li><a href="risicogroep.php">Risicogroep</a></li>
           <li><a href="info.php">Informatie</a></li>
-          <li><a href="winkelwagen.php">Winkelwagen</a></li>
-
-
+          <li class="selected"><a href="winkelwagen.php">Winkelwagen</a></li>
         </ul>
       </div>
     </div>
     <div id="site_content">
-    <div class="sidebar">
-        <h1>Laatste Nieuws</h1>
-        <h5>21-4-2020</h5>
-        <p>Er zijn bijna geen landen meer waar er geen Covid 19 is, toch blijven mensen naar buiten gaan.<br /><a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">lees meer</a></p>
-        <h1>STATISTIEKEN</h1>
-        <ul>
-          <li>aantal besmetingen in nederland:<p id="nummer"> 33.405</p></li>
-          <li>aantal doden in nederland: <p id="nummer">3.751</p></li>
-          <li>aantal besmetingen wereld wijd: <p id="nummer">2.486.964</p></li>
-          <li>aantal doden wereld wijd: <p id="nummer">170.418</li>
-        </ul>
-        
-      </div>
+    
       <div id="content">
-      <div id="product">
-        <h1 style="text-align: center; font-size: 30px">zeep</h1>
-        <img src="style/zeep.jpg" alt="zeep" style="width: 350px; height: 350px; padding-left: 100px"></img>
-      </div>
-      <h1 style="font-weight: bold">&euro;5,00</h1>
-      <form method="post">
-        <input type="number" min="1" max="15" name="aantal"><button name="toevoegen">aan winkel wagen toevoegen</button>
+
       
-      <div id="beschrijving"><p>Bijzonder geschikt tegen huidveroudering Met aromatische oliën Gaat net zo lang mee als 3 normale douchegelflessen!</p></div>
 
-          </div>
-          <?php
-          if(isset($_POST['toevoegen'])){
-            $_SESSION['product3'] = "zeep";
-            $_SESSION['bestelling3'] = $_POST['aantal'];
-            $_SESSION['prijsTotaal3'] = 5 * $_POST['aantal'];
-            $_SESSION['bestelling'] = 1;
+        <form action="winkelwagen.php" method="post">
 
-            header("location: winkelwagen.php");
-          }
-          ?>
+        <input name="Email" type="text" style="margin-bottom: 10px"></input>
+
+        <button name="bestellen">bestellen</button>
+
         </form>
+      </div>
       </div>
     </div>
     <div id="footer">
