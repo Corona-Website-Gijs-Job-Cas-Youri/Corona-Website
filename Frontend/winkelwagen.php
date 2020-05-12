@@ -1,5 +1,7 @@
 <?php 
   session_start();
+
+  $_SESSION['prijsTotaal'] = 0;
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -59,6 +61,7 @@
               <td><?php echo $_SESSION['product1'] ?></td>
               <td><?php echo $_SESSION['bestelling1']?></td>
               <td>&euro;<?php echo $_SESSION['prijsTotaal1']?></td>
+              <?php $_SESSION['prijsTotaal'] += $_SESSION['prijsTotaal1']; ?>
             </tr>
             <?php 
             }
@@ -72,6 +75,7 @@
               <td><?php echo $_SESSION['product2'] ?></td>
               <td><?php echo $_SESSION['bestelling2']?></td>
               <td>&euro;<?php echo $_SESSION['prijsTotaal2']?></td>
+              <?php $_SESSION['prijsTotaal'] += $_SESSION['prijsTotaal2']; ?>
             </tr>
             <?php 
             }
@@ -82,33 +86,25 @@
               <td><?php echo $_SESSION['product3'] ?></td>
               <td><?php echo $_SESSION['bestelling3']?></td>
               <td>&euro;<?php echo $_SESSION['prijsTotaal3']?></td>
+              <?php $_SESSION['prijsTotaal'] += $_SESSION['prijsTotaal3'];?>
             </tr>
             <?php 
             }
-
-            if(!isset($_SESSION['bestelling1'])){
-              $_SESSION['prijstotaal1'] = 0;
-            }
-            if(!isset($_SESSION['bestelling2'])){
-              $_SESSION['prijstotaal2'] = 0;
-            }
-            if(!isset($_SESSION['bestelling3'])){
-              $_SESSION['prijstotaal3'] = 0;
-            }
-
-            $_SESSION['prijsTotaal'] = $_SESSION['prijsTotaal3'] + $_SESSION['prijsTotaal2'] + $_SESSION['prijsTotaal1'];
+            
             ?>
           </table>
 
-          <h3>totaal <?php $_SESSION['prijsTotaal'] ?></h3>
+          <h3>totaal: &euro;<?php echo $_SESSION['prijsTotaal'] ?></h3>
   
           <?php
         }
         ?>
-        <form action="winkelwagen.php" method="get">
+        <form action="winkelwagen.php" method="post">
         <button name="bestel" formaction="bestellen.php">bestellen</button>
         <button type="submit" formaction="webshop.php">verder winkelen</button>
+        <button>winkel wagen legen</button>
         </form>
+        
       </div>
       </div>
     </div>
