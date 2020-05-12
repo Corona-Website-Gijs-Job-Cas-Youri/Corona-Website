@@ -1,4 +1,4 @@
-<?php
+<?php 
 include('C:\xampp\htdocs\Corona-Website\Frontend\functies.php');
 ?>
 <!DOCTYPE HTML>
