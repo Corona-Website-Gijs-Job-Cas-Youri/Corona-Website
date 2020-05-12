@@ -3,14 +3,10 @@
 function OpenCon()
 {
 $dbhost = "localhost";
-$dbuser = "gheetebrij_Gijs";
-$dbpass = "mxRKX8!qBZn2gUb^";
+$dbuser = "root";
+$dbpass = "";
 $db = "gheetebrij_Corona";
-$conn = mysqli_connect($dbhost, 
-$dbuser, 
-$dbpass, 
-$db)
- or die("Connect failed: %s\n". $conn -> error);
+$conn = mysqli_connect($dbhost, $dbuser,$dbpass, $db) or die("Connect failed: %s\n");
 
 return $conn;
 }
@@ -19,5 +15,4 @@ function CloseCon($conn)
 {
 $conn -> close();
 }
-
-
+ 
