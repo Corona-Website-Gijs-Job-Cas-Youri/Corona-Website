@@ -1,6 +1,5 @@
 <?php
 require('functies.php');
-require('db_conn.php');
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -77,6 +76,7 @@ require('db_conn.php');
 
           <?php
           //locatie();
+          include('C:\xampp\htdocs\Corona-Website\Frontend/db_conn.php');
           OpenCon();
 
           if (isset($_POST['provincie'])) {
