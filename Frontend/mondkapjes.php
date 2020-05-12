@@ -57,7 +57,7 @@
       </div>
       <h1 style="font-weight: bold">&euro;5,00</h1>
       <form method="post">
-        <input type="number" min="1" max="10" name="aantal"><button name="toevoegen" >aan winkel wagen toevoegen</button>
+        <input type="number" min="1" max="15" name="aantal"><button name="toevoegen" >aan winkel wagen toevoegen</button>
 
       <div id="beschrijving"><p>Dit mondkapje is geschikt voor elk gezichtstype en heeft 3 lagen met een goede bescherming tegen infecties. 
                             Tevens bevat het een goede luchtdoorlatendheid door het gebruik van lichte materialen. Doordat warmte zich minder kan ophopen onder het masker,

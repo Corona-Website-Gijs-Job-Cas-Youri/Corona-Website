@@ -1,7 +1,7 @@
 <?php 
   session_start();
 
-  $_SESSION['producten'] = 0;
+
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -87,36 +87,28 @@
             </tr>
             <?php 
             }
-            if(isset($_SESSION['bestelling1'])){
-            $totaalPrijs = $_SESSION['prijsTotaal1'];
+
+            if(!isset($_SESSION['bestelling1'])){
+              $_SESSION['prijstotaal1'] = 0;
             }
-            elseif(isset($_SESSION['bestelling2'])){
-            $totaalPrijs = $_SESSION['prijsTotaal2'];
+            if(!isset($_SESSION['bestelling2'])){
+              $_SESSION['prijstotaal2'] = 0;
             }
-            elseif(isset($_SESSION['bestelling3'])){
-            $totaalPrijs = $_SESSION['prijsTotaal3'];
-            }
-            elseif(!isset($_SESSION['bestelling1'])){
-            $totaalPrijs = $_SESSION['prijsTotaal2'] + $_SESSION['prijsTotaal3'];
-            }
-            elseif(!isset($_SESSION['bestelling2'])){
-            $totaalPrijs = $_SESSION['prijsTotaal1'] + $_SESSION['prijsTotaal3'];
-            }
-            elseif(!isset($_SESSION['bestelling3'])){
-            $totaalPrijs = $_SESSION['prijsTotaal1'] + $_SESSION['prijsTotaal2'];
-            }
-            else{
-              $_SESSION['prijsTotaal1'] + $_SESSION['prijsTotaal2'] + $_SESSION['prijsTotaal3'];
+            if(!isset($_SESSION['bestelling3'])){
+              $_SESSION['prijstotaal3'] = 0;
             }
 
+            $_SESSION['prijsTotaal'] = $_SESSION['prijsTotaal3'] + $_SESSION['prijsTotaal2'] + $_SESSION['prijsTotaal1'];
             ?>
           </table>
-          <p style="font-size: large">totaal:&euro;<?php echo $totaalPrijs ?></p>
+
+          <h3>totaal <?php $_SESSION['prijsTotaal'] ?></h3>
+  
           <?php
         }
         ?>
         <form action="winkelwagen.php" method="get">
-        <button>bestellen</button>
+        <button name="bestel" formaction="bestellen.php">bestellen</button>
         <button type="submit" formaction="webshop.php">verder winkelen</button>
         </form>
       </div>
