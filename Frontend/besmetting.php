@@ -74,15 +74,22 @@ require('db_conn');
             </select>
             <button type="submit">zoek</button><br>
           </form>
+
           <?php
-//          locatie();
+          //locatie();
           OpenCon();
-          $provincie = $_POST['provincie'];
-          $sql = "SELECT `Aantal_Besmet` FROM `besmet` WHERE `Provincie` == $provincie";
-          $result = mysqli_query(OpenCon(), $sql);
-          $output = mysqli_fetch_assoc($result);
-          echo "In " + $provincie + " zijn " + $output + " mensen besmet";
-          ?><br>
+
+          if (isset($_POST['provincie'])) {
+
+            $provincie = $_POST['provincie'];
+            $sql = "SELECT `Aantal_Besmet` FROM `besmet` WHERE `Provincie` == $provincie";
+            $result = mysqli_query(OpenCon(), $sql);
+            $output = mysqli_fetch_assoc($result);
+            echo "In " + $provincie + " zijn " + $output + " mensen besmet";
+          }
+          ?>
+
+          <br>
           <br>
           Hier is voor een voorbeeld de meest recente kaart van besmettingen per gemeente
           <img src="style/coronakaart.png">
