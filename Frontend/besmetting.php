@@ -72,19 +72,19 @@ include('C:\xampp\htdocs\Corona-Website\Frontend\functies.php');
             <option value="groningen">Groningen</option>
             <option value="friesland">Friesland</option>
           </select>
-          <button type="submit">zoek</button><br>
-          <?php
-          OpenCon();
-          $provincie = $_POST['provincie'];
-          $sql = "SELECT `Aantal_Besmet` FROM `besmet` WHERE `Provincie` == $provincie";
-          $result = mysqli_query(OpenCon(), $sql);
-          $output = mysqli_fetch_assoc($result)
-          ?><br>
-          <p>
-            Hier is voor een voorbeeld de meest recente k aart van besmettingen per gemeente
-          </p>
-          <img src="style/coronakaart.png">
         </form>
+        <?php
+        OpenCon();
+        $provincie = $_POST['provincie'];
+        $sql = "SELECT `Aantal_Besmet` FROM `besmet` WHERE `Provincie` == $provincie";
+        $result = mysqli_query(OpenCon(), $sql);
+        $output = mysqli_fetch_assoc($result)
+        ?><br>
+        <p>
+          Hier is voor een voorbeeld de meest recente k aart van besmettingen per gemeente
+        </p>
+        <img src="style/coronakaart.png">
+
 
 
       </div>
