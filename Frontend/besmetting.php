@@ -74,9 +74,7 @@ require('functies.php');
           </form>
 
           <?php
-          //locatie();
-
-          if (isset($_POST['provincie'])) {
+         
             include_once('C:\xampp\htdocs\Corona-Website\Frontend\db_conn.php');
             OpenCon();
   
@@ -85,7 +83,7 @@ require('functies.php');
             $result = mysqli_query(OpenCon(), $sql);
             $output = mysqli_fetch_assoc($result);
             echo "In " + $provincie + " zijn " + $output + " mensen besmet";
-          }
+          
 
           ?>
 
