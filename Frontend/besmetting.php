@@ -74,16 +74,16 @@ require('functies.php');
           </form>
 
           <?php
-         
+          if (isset($_POST['provincie'])) {
             include_once('C:\xampp\htdocs\Corona-Website\Frontend\db_conn.php');
             OpenCon();
-  
+            
             $provincie = $_POST['provincie'];
             $sql = "SELECT `Aantal_Besmet` FROM `besmet` WHERE `Provincie` == $provincie";
             $result = mysqli_query(OpenCon(), $sql);
             $output = mysqli_fetch_assoc($result);
-            echo "In " + $provincie + " zijn " + $output + " mensen besmet";
-          
+            echo "In " + $provincie + " zijn " + $result + " mensen besmet";
+          }
 
           ?>
 
