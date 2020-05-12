@@ -37,16 +37,19 @@
         <p>Er zijn bijna geen landen meer waar er geen Covid 19 is, toch blijven mensen naar buiten gaan.<br /><a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">lees meer</a></p>
         <h1>Statistieken</h1>
         <ul>
-          <li>aantal besmetingen in Nederland:<p id="nummer"> 33.405</p></li>
-          <li>aantal doden in Nederland: <p id="nummer">3.751</p></li>
-          <li>aantal besmetingen wereldwijd: <p id="nummer">2.486.964</p></li>
+          <li>aantal besmetingen in Nederland:<p id="nummer"> 33.405</p>
+          </li>
+          <li>aantal doden in Nederland: <p id="nummer">3.751</p>
+          </li>
+          <li>aantal besmetingen wereldwijd: <p id="nummer">2.486.964</p>
+          </li>
           <li>aantal doden wereldwijd: <p id="nummer">170.418</li>
         </ul>
-        
+
       </div>
       <div id="content">
         <h1>Welkom bij Covid_Info</h1>
-        <p>Hier vindt u het laatste nieuws omtrend het Corona virus (COVID19). Daarnaast kunt U hier alle tips en informatie van de Overheid en het RIVM (Rijksinstituut voor Volksgezondheid en Milieu) vinden. Tevens bieden wij de mogelijkheid om hier handzeep, mondkapjes en toiletpapier te bestellen.  Tot slot geven wij U tips tegen de verveling en andere bezigheden om u door deze moeilijke tijd te helpen.</p>
+        <p>Hier vindt u het laatste nieuws omtrend het Corona virus (COVID19). Daarnaast kunt U hier alle tips en informatie van de Overheid en het RIVM (Rijksinstituut voor Volksgezondheid en Milieu) vinden. Tevens bieden wij de mogelijkheid om hier handzeep, mondkapjes en toiletpapier te bestellen. Tot slot geven wij U tips tegen de verveling en andere bezigheden om u door deze moeilijke tijd te helpen.</p>
 
         <h2>Wat kunt U doen?</h2>
 
@@ -60,14 +63,15 @@
           <li>En nog veel meer!</li>
         </ul>
       </div>
-        <div id="nieuwsbrief_bar" >
-          <a id="nieuwsbrief" href="Nieuwsbrief.pdf" target="_blank">Abonneer hier op de nieuwsbrief!</a>
-        </div>
+      <div id="nieuwsbrief_bar">
+        <a id="nieuwsbrief" href="Nieuwsbrief.pdf" target="_blank">Abonneer hier op de nieuwsbrief!</a>
+      </div>
     </div>
     <div id="footer">
-    <p><a href="index.php">Home</a> | <a href="bezigheden.php">Bezigheden</a> | <a href="besmetting.php">Besmetting</a> | <a href="webshop.php">Webshop</a> | <a href="risicogroep.php">Risicogroep</a> | <a href="info.php">informatie</a></p>
-    <p>Copyright &copy; simple_light | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
+      <p><a href="index.php">Home</a> | <a href="bezigheden.php">Bezigheden</a> | <a href="besmetting.php">Besmetting</a> | <a href="webshop.php">Webshop</a> | <a href="risicogroep.php">Risicogroep</a> | <a href="info.php">informatie</a></p>
+      <p>Copyright &copy; simple_light | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
     </div>
   </div>
 </body>
+
 </html>
