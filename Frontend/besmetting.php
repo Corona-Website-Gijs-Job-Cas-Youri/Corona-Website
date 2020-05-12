@@ -71,22 +71,22 @@ require('functies.php');
               <option value="groningen">Groningen</option>
               <option value="friesland">Friesland</option>
             </select>
-            <button type="submit">zoek</button><br>
           </form>
 
           <?php
           //locatie();
-          include('C:\xampp\htdocs\Corona-Website\Frontend/db_conn.php');
-          OpenCon();
 
           if (isset($_POST['provincie'])) {
-
+            include_once('C:\xampp\htdocs\Corona-Website\Frontend\db_conn.php');
+            OpenCon();
+  
             $provincie = $_POST['provincie'];
             $sql = "SELECT `Aantal_Besmet` FROM `besmet` WHERE `Provincie` == $provincie";
             $result = mysqli_query(OpenCon(), $sql);
             $output = mysqli_fetch_assoc($result);
             echo "In " + $provincie + " zijn " + $output + " mensen besmet";
           }
+
           ?>
 
           <br>
