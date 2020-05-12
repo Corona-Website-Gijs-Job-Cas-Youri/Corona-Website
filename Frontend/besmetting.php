@@ -55,8 +55,9 @@ include('C:\xampp\htdocs\Corona-Website\Frontend\functies.php');
       <div id="content">
         <h1>Besmettings gevaar</h1>
         <p>
-          Hier kunt uw bekijken hoe veilig uw stad en directe omgeving is.<br>
+          Hier kunt uw bekijken hoe veilig uw stad en directe omgeving is.
         </p>
+        
         <form method="POST" action="besmetting.php">
           <select name="provincie" id="provincie" onchange="this.form.submit()">
             <option value="Select">Kies provincie</option>
@@ -74,19 +75,14 @@ include('C:\xampp\htdocs\Corona-Website\Frontend\functies.php');
           </select>
         </form>
         <?php
-        OpenCon();
-        $provincie = $_POST['provincie'];
-        $sql = "SELECT `Aantal_Besmet` FROM `besmet` WHERE `Provincie` == $provincie";
-        $result = mysqli_query(OpenCon(), $sql);
-        $output = mysqli_fetch_assoc($result)
-        ?><br>
+        locatie();
+        ?>
+        <br>
         <p>
-          Hier is voor een voorbeeld de meest recente k aart van besmettingen per gemeente
+          Hier is voor een voorbeeld de meest recente kaart van besmettingen per gemeente
         </p>
         <img src="style/coronakaart.png">
-
-
-
+       
       </div>
     </div>
     <div id="footer">

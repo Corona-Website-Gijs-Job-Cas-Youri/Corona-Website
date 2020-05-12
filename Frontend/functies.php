@@ -1,4 +1,4 @@
-<?php require_once('db_conn.php');
+<?php require('db_conn.php');
 
 
 function locatie()
