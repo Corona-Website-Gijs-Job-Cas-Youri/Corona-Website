@@ -15,4 +15,6 @@ function CloseCon($conn)
 {
 $conn -> close();
 }
- 
+
+$dbuser_cpanel = "gheetebrij_gheetebrij";
+$dbpass_cpanel = "mxRKX8!qBZn2gUb^";
