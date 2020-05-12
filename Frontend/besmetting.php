@@ -1,6 +1,6 @@
 <?php
 require('functies.php');
-require('db_conn');
+require('db_conn.php');
 ?>
 <!DOCTYPE HTML>
 <html>
