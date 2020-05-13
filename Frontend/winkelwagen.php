@@ -1,5 +1,6 @@
 <?php 
   session_start();
+  require('functies.php');
 
   $_SESSION['prijsTotaal'] = 0;
 ?>
@@ -102,7 +103,16 @@
         <form action="winkelwagen.php" method="post">
         <button name="bestel" formaction="bestellen.php">bestellen</button>
         <button type="submit" formaction="webshop.php">verder winkelen</button>
-        <button>winkel wagen legen</button>
+        <button name="button">winkel wagen legen</button>
+
+        <?php 
+
+        if(isset($_POST['button'])){
+          header("location: winkelwagen.php");
+          session_destroy(); 
+       }
+        ?>
+
         </form>
         
       </div>
