@@ -3,6 +3,8 @@
 
   require_once('db_conn.php');
 
+  if(isset($_POST['bestellen'])){
+
   if(isset($_SESSION['bestelling1'])){
     $sql_insert1 = "INSERT INTO producten(Prod_Naam, Prod_Prijs)
     VALUES($_SESSION[product1], $_SESSION[prijsTotaal1])";
@@ -22,7 +24,7 @@
     $result3 = mysqli_query($conn, $sql_insert3);
 }
 
-  if(isset($_POST['bestellen'])){
+
 
     $_SESSION['Email'] = $_POST['Email'];
 
@@ -40,7 +42,7 @@
 <html>
 
 <head>
-  <title>Winkelwagen</title>
+  <title>bestellen</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
