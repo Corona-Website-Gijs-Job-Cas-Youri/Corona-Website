@@ -59,17 +59,17 @@ require('functies.php');
           <form method="POST" action="besmetting.php">
             <select name="provincie" id="provincie" onchange="this.form.submit()">
               <option value="Select">Kies provincie</option>
-              <option value="limburg">Limburg</option>
-              <option value="brabant">Brabant</option>
-              <option value="zeeland">Zeeland</option>
-              <option value="zuidholland">Zuid-Holland</option>
-              <option value="noordholland">Noord-Holland</option>
-              <option value="utrecht">Utrecht</option>
-              <option value="gelderland">Gelderland</option>
-              <option value="overijssel">Overijssel</option>
-              <option value="flevoland">Flevoland</option>
-              <option value="groningen">Groningen</option>
-              <option value="friesland">Friesland</option>
+              <option value="Limburg">Limburg</option>
+              <option value="Noord-Brabant">Brabant</option>
+              <option value="Zeeland">Zeeland</option>
+              <option value="Zuid-Holland">Zuid-Holland</option>
+              <option value="Noord-Holland">Noord-Holland</option>
+              <option value="Utrecht">Utrecht</option>
+              <option value="Gelderland">Gelderland</option>
+              <option value="Overijssel">Overijssel</option>
+              <option value="Flevoland">Flevoland</option>
+              <option value="Groningen">Groningen</option>
+              <option value="Friesland">Friesland</option>
             </select>
           </form>
 
