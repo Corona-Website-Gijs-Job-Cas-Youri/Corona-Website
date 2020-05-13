@@ -19,3 +19,5 @@ function locatie()
         echo 'In ' . $provincie . ' zijn ' . $result["Aantal_Besmet"] .  ' mensen besmet';
     }
 }
+    
+ 
