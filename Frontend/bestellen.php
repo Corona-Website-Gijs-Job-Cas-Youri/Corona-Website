@@ -20,8 +20,7 @@
     $result2 = mysqli_query($conn, $sql_insert2);
   }
   if(isset($_SESSION['bestelling3'])){
-  $sql_insert3 = "INSERT INTO producten(Prod_Naam, Prod_Prijs)
-    VALUES('{$_SESSION['product3']}', '{$_SESSION['prijsTotaal3']}')";
+  $sql_insert3 = "INSERT INTO producten(Prod_Naam, Prod_Prijs) VALUES('{$_SESSION['product3']}', '{$_SESSION['prijsTotaal3']}')";
 
     $result3 = mysqli_query($conn, $sql_insert3);
 }
@@ -30,8 +29,7 @@
 
     $_SESSION['Email'] = $_POST['Email'];
 
-    $sql_insert = "INSERT INTO bestelling(Email, Handschoenen, Mondkapjes, Zeep, Tot_Prijs) 
-                    VALUES('{$_SESSION['Email']}', '{$_SESSION['bestelling1']}', '{$_SESSION['bestelling2']}', '{$_SESSION['bestelling3']}', '{$_SESSION['prijsTotaal']}')";
+    $sql_insert = "INSERT INTO bestelling(Email, Handschoenen, Mondkapjes, Zeep, Tot_Prijs) VALUES('{$_SESSION['Email']}', '$result1', '$result2', '$result3', '{$_SESSION['prijsTotaal']}')";
 
                     $result = mysqli_query($conn, $sql_insert);
                     
