@@ -61,7 +61,7 @@ $_SESSION['prijsTotaal'] = 0;
                     ?>
                       <tr>
                         <td><?php echo $_SESSION['product1'] ?></td>
-                        <td><?php echo $_SESSION['bestelling1'] ?></td>
+                        <td><?php echo $_SESSION['aantal1'] ?></td>
                         <td class="borderrijtop">&euro;<?php echo $_SESSION['prijsTotaal1'] ?></td>
                         <?php $_SESSION['prijsTotaal'] += $_SESSION['prijsTotaal1']; ?>
                       </tr>
@@ -75,7 +75,7 @@ $_SESSION['prijsTotaal'] = 0;
                   ?>
                     <tr>
                       <td><?php echo $_SESSION['product2'] ?></td>
-                      <td><?php echo $_SESSION['bestelling2'] ?></td>
+                      <td><?php echo $_SESSION['aantal2'] ?></td>
                       <td class="borderrij">&euro;<?php echo $_SESSION['prijsTotaal2'] ?></td>
                       <?php $_SESSION['prijsTotaal'] += $_SESSION['prijsTotaal2']; ?>
                     </tr>
@@ -86,7 +86,7 @@ $_SESSION['prijsTotaal'] = 0;
                   ?>
                     <tr>
                       <td><?php echo $_SESSION['product3'] ?></td>
-                      <td><?php echo $_SESSION['bestelling3'] ?></td>
+                      <td><?php echo $_SESSION['aantal3'] ?></td>
                       <td class="borderrij">&euro;<?php echo $_SESSION['prijsTotaal3'] ?></td>
                       <?php $_SESSION['prijsTotaal'] += $_SESSION['prijsTotaal3']; ?>
                     </tr>

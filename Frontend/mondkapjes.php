@@ -72,8 +72,8 @@ session_start();
       <?php
       if (isset($_POST['toevoegen'])) {
         $_SESSION['product1'] = "mondkapjes";
-        $_SESSION['bestelling1'] = $_POST['aantal'];
-        $_SESSION['prijsTotaal1'] = 5 * $_POST['aantal'];
+        $_SESSION['bestelling1'] = $_POST['aantal3'];
+        $_SESSION['prijsTotaal1'] = 5 * $_POST['aantal3'];
         $_SESSION['bestelling'] = 1;
 
         header("location: winkelwagen.php");
