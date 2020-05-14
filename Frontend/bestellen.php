@@ -1,41 +1,41 @@
-<?php 
-  session_start();
+<?php
+session_start();
 
-  require_once('db_conn.php');
+require_once('db_conn.php');
 
 
-  if(isset($_POST['bestellen'])){
+if (isset($_POST['bestellen'])) {
 
-  if(isset($_SESSION['bestelling1'])){
+  if (isset($_SESSION['bestelling1'])) {
     $sql_insert1 = "INSERT INTO producten(Prod_Naam, Prod_Prijs)
     VALUES('{$_SESSION['product1']}', {$_SESSION['prijsTotaal1']})";
 
     $result1 = mysqli_query(OpenCon(), $sql_insert1);
   }
-  if(isset($_SESSION['bestelling2'])){
-  $sql_insert2 = "INSERT INTO producten(Prod_Naam, Prod_Prijs)
+  if (isset($_SESSION['bestelling2'])) {
+    $sql_insert2 = "INSERT INTO producten(Prod_Naam, Prod_Prijs)
     VALUES('{$_SESSION['product2']}', {$_SESSION['prijsTotaal2']})";
 
     $result2 = mysqli_query(OpenCon(), $sql_insert2);
   }
-  if(isset($_SESSION['bestelling3'])){
-  $sql_insert3 = "INSERT INTO producten(Prod_Naam, Prod_Prijs) VALUES('{$_SESSION['product3']}', '{$_SESSION['prijsTotaal3']}')";
+  if (isset($_SESSION['bestelling3'])) {
+    $sql_insert3 = "INSERT INTO producten(Prod_Naam, Prod_Prijs) VALUES('{$_SESSION['product3']}', '{$_SESSION['prijsTotaal3']}')";
 
     $result3 = mysqli_query(OpenCon(), $sql_insert3);
+  }
+
+  $_SESSION['Email'] = $_POST['Email'];
+
+  $sql_insert = "INSERT INTO bestelling(Email, Handschoenen, Mondkapjes, Zeep, Tot_Prijs) 
+                    VALUES('{$_SESSION['Email']}', ''{$_SESSION['bestelling1']}', '{$_SESSION['bestelling2']}', '{$_SESSION['bestelling3']}', {$_SESSION['prijsTotaal']})";
+
+  $result = mysqli_query(OpenCon(), $sql_insert);
+
+
+  header("location: bevestig.php");
 }
 
-    $_SESSION['Email'] = $_POST['Email'];
 
-    $sql_insert = "INSERT INTO bestelling(Email, Handschoenen, Mondkapjes, Zeep, Tot_Prijs) 
-                    VALUES('{$_SESSION['Email']}', {$_SESSION['bestelling1']}, {$_SESSION['bestelling2']}, {$_SESSION['bestelling3']}, {$_SESSION['prijsTotaal']})";
-
-                    $result = mysqli_query(OpenCon(), $sql_insert);
-                    
-
-                    header("location: bevestig.php");
-  }
-  
-  
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -72,28 +72,29 @@
       </div>
     </div>
     <div id="site_content" class="cleanbackground2">
-    
+
       <div id="content">
         <div id="container2">
 
-      
 
-        <form class="bedankt" method="post" action="bestellen.php">
 
-        <p>Email:</p>
-        <input class="input" name="Email" type="text" style="margin-bottom: 10px"></input>
+          <form class="bedankt" method="post" action="bestellen.php">
 
-        <button class="bestel" name="bestellen">bestellen</button>
+            <p>Email:</p>
+            <input class="input" name="Email" type="text" style="margin-bottom: 10px"></input>
 
-        </form>
+            <button class="bestel" name="bestellen">bestellen</button>
+
+          </form>
+        </div>
       </div>
-      </div>
-      </div>
-    </div>
-    <div id="footer">
-    <p><a href="index.php">Home</a> | <a href="bezigheden.php">Bezigheden</a> | <a href="besmetting.php">Besmetting</a> | <a href="webshop.php">Webshop</a> | <a href="risicogroep.php">Risicogroep</a> | <a href="info.php">informatie</a></p>
-      <p>Copyright &copy; simple_light | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
     </div>
   </div>
+  <div id="footer">
+    <p><a href="index.php">Home</a> | <a href="bezigheden.php">Bezigheden</a> | <a href="besmetting.php">Besmetting</a> | <a href="webshop.php">Webshop</a> | <a href="risicogroep.php">Risicogroep</a> | <a href="info.php">informatie</a></p>
+    <p>Copyright &copy; simple_light | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
+  </div>
+  </div>
 </body>
+
 </html>
