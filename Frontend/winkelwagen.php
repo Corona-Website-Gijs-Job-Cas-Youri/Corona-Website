@@ -54,7 +54,7 @@ $_SESSION['prijsTotaal'] = 0;
             <tr>
               <th>product naam</th>
               <th>aantal</th>
-              <th>totaal prijs</th>
+              <th>totaalprijs</th>
             </tr>
             <div id="productwinkel">
             <?php 
@@ -97,8 +97,8 @@ $_SESSION['prijsTotaal'] = 0;
               if(isset($_SESSION['bestelling'])){
             ?>
             <tr>
-              <td class="bold" colspan="2" > Totaal:</td>
-              <td class="border">&euro;<?php echo $_SESSION['prijsTotaal'] ?></td>
+              <td class="totaal" colspan="2"> Totaal:</td>
+              <td  class="totaal" >&euro;<?php echo $_SESSION['prijsTotaal'] ?></td>
             </tr>
             <?php 
             }
@@ -117,11 +117,11 @@ $_SESSION['prijsTotaal'] = 0;
         }
 
         if($winkelwagenEmpty == false){
-        ?> <div id="besttelling_form">
-            <form action="winkelwagen.php" method="post">
-            <button name="bestel" formaction="bestellen.php">bestellen</button>
-            <button type="submit" formaction="webshop.php">verder winkelen</button>
-            <button name="button">winkel wagen legen</button>
+        ?> <div id="bestelling_form">
+            <form action="winkelwagen.php" method="post" class="width">
+            <button name="bestel" formaction="bestellen.php" id="bestel">bestellen</button>
+            <button type="submit" formaction="webshop.php" id="verder">verder winkelen</button>
+            <button name="legen" id="legen" >winkelwagen legen</button>
             </form>
            </div>
 
@@ -129,7 +129,7 @@ $_SESSION['prijsTotaal'] = 0;
         }else{
           echo "Het lijkt erop dat de winkelwagen leeg is.";
         }
-        if(isset($_POST['button'])){
+        if(isset($_POST['legen'])){
           header("location: winkelwagen.php");
           session_destroy(); 
        }
