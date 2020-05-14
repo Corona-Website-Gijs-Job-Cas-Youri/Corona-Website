@@ -30,13 +30,15 @@ $aantal1 = $_POST['aantal1'];
 $aantal2 = $_POST['aantal2'];
 $aantal3 = $_POST['aantal3'];
 
-
+$_SESSION['bestelling1'] = $aantal1 + 0;
+$_SESSION['bestelling2'] = $aantal2 + 0;
+$_SESSION['bestelling3'] = $aantal3 + 0;
 
 
   $_SESSION['Email'] = $_POST['Email'];
 
   $sql_insert = "INSERT INTO bestelling(Email, Handschoenen, Mondkapjes, Zeep, Tot_Prijs) 
-                    VALUES('{$_SESSION['Email']}', $aantal1, $aantal2, $aantal3, {$_SESSION['prijsTotaal']})";
+                    VALUES('{$_SESSION['Email']}', {$_SESSION['bestelling1']}, {$_SESSION['bestelling2']}, {$_SESSION['bestelling3']}, {$_SESSION['prijsTotaal']})";
 
   $result = mysqli_query(OpenCon(), $sql_insert);
 
