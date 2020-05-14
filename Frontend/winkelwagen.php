@@ -38,83 +38,107 @@ $_SESSION['prijsTotaal'] = 0;
         </ul>
       </div>
     </div>
-    <div id="site_content">
-
+    <div id="site_content" class="cleanbackground">
+    
       <div id="content">
 
-        <div id="winkelwagen">
+      <div id="container">
+      <div id="winkelwagen" >
+        <?php 
+        if(!isset($_SESSION['bestelling'])){
+
+        }else{
+          ?> 
+          <div id="table_wrap">
+          <table>
+            <tr>
+              <th>product naam</th>
+              <th>aantal</th>
+              <th>totaal prijs</th>
+            </tr>
+            <div id="productwinkel">
+            <?php 
+              if(isset($_SESSION['bestelling1'])){
+            ?>
+            <tr>
+              <td><?php echo $_SESSION['product1'] ?></td>
+              <td><?php echo $_SESSION['bestelling1']?></td>
+              <td>&euro;<?php echo $_SESSION['prijsTotaal1']?></td>
+              <?php $_SESSION['prijsTotaal'] += $_SESSION['prijsTotaal1']; ?>
+            </tr>
+            <?php 
+            }
+            ?>
+            </div>
+            <?php
+            
+              if(isset($_SESSION['bestelling2'])){
+            ?>
+            <tr>
+              <td><?php echo $_SESSION['product2'] ?></td>
+              <td><?php echo $_SESSION['bestelling2']?></td>
+              <td>&euro;<?php echo $_SESSION['prijsTotaal2']?></td>
+              <?php $_SESSION['prijsTotaal'] += $_SESSION['prijsTotaal2']; ?>
+            </tr>
+            <?php 
+            }
+             
+              if(isset($_SESSION['bestelling3'])){
+            ?>
+            <tr>
+              <td><?php echo $_SESSION['product3'] ?></td>
+              <td><?php echo $_SESSION['bestelling3']?></td>
+              <td>&euro;<?php echo $_SESSION['prijsTotaal3']?></td>
+              <?php $_SESSION['prijsTotaal'] += $_SESSION['prijsTotaal3'];?>
+            </tr>
+            <?php 
+            }
+
+              if(isset($_SESSION['bestelling'])){
+            ?>
+            <tr>
+              <td class="bold" colspan="2" > Totaal:</td>
+              <td class="border">&euro;<?php echo $_SESSION['prijsTotaal'] ?></td>
+            </tr>
+            <?php 
+            }
+            
+            ?>
+          </table>
+          </div>
+  
           <?php
-          if (!isset($_SESSION['bestelling'])) {
-          } else {
-          ?>
-            <table>
-              <tr>
-                <th>product naam</th>
-                <th>aantal</th>
-                <th>totaal prijs</th>
-              </tr>
-              <div id="productwinkel">
-                <?php
-                if (isset($_SESSION['bestelling1'])) {
-                ?>
-                  <tr>
-                    <td><?php echo $_SESSION['product1'] ?></td>
-                    <td><?php echo $_SESSION['bestelling1'] ?></td>
-                    <td>&euro;<?php echo $_SESSION['prijsTotaal1'] ?></td>
-                    <?php $_SESSION['prijsTotaal'] += $_SESSION['prijsTotaal1']; ?>
-                  </tr>
-                <?php
-                }
-                ?>
-              </div>
-              <?php
+        }
+        if(!isset($_SESSION['bestelling1']) && !isset($_SESSION['bestelling2']) && !isset($_SESSION['bestelling3'])){
+          //die("Uw winkelwagen is leeg.");
+          $winkelwagenEmpty = true;
+        }else{
+          $winkelwagenEmpty = false;
+        }
 
-              if (isset($_SESSION['bestelling2'])) {
-              ?>
-                <tr>
-                  <td><?php echo $_SESSION['product2'] ?></td>
-                  <td><?php echo $_SESSION['bestelling2'] ?></td>
-                  <td>&euro;<?php echo $_SESSION['prijsTotaal2'] ?></td>
-                  <?php $_SESSION['prijsTotaal'] += $_SESSION['prijsTotaal2']; ?>
-                </tr>
-              <?php
-              }
-
-              if (isset($_SESSION['bestelling3'])) {
-              ?>
-                <tr>
-                  <td><?php echo $_SESSION['product3'] ?></td>
-                  <td><?php echo $_SESSION['bestelling3'] ?></td>
-                  <td>&euro;<?php echo $_SESSION['prijsTotaal3'] ?></td>
-                  <?php $_SESSION['prijsTotaal'] += $_SESSION['prijsTotaal3']; ?>
-                </tr>
-              <?php
-              }
-
-              ?>
-            </table>
-
-            <h3>totaal: &euro;<?php echo $_SESSION['prijsTotaal'] ?></h3>
-
-          <?php
-          }
-          ?>
-          <form action="winkelwagen.php" method="post">
+        if($winkelwagenEmpty == false){
+        ?> <div id="besttelling_form">
+            <form action="winkelwagen.php" method="post">
             <button name="bestel" formaction="bestellen.php">bestellen</button>
             <button type="submit" formaction="webshop.php">verder winkelen</button>
             <button name="button">winkel wagen legen</button>
+            </form>
+           </div>
 
-            <?php
+        <?php 
+        }else{
+          echo "Het lijkt erop dat de winkelwagen leeg is.";
+        }
+        if(isset($_POST['button'])){
+          header("location: winkelwagen.php");
+          session_destroy(); 
+       }
 
-            if (isset($_POST['button'])) {
-              header("location: winkelwagen.php");
-              session_destroy();
-            }
-            ?>
-
-          </form>
-
-        </div>
+      
+        ?>
+        
+      </div>
+      </div>
       </div>
     </div>
     <div id="footer">
