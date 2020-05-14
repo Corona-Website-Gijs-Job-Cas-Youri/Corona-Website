@@ -110,7 +110,6 @@ $_SESSION['prijsTotaal'] = 0;
           <?php
         }
         if(!isset($_SESSION['bestelling1']) && !isset($_SESSION['bestelling2']) && !isset($_SESSION['bestelling3'])){
-          //die("Uw winkelwagen is leeg.");
           $winkelwagenEmpty = true;
         }else{
           $winkelwagenEmpty = false;
@@ -119,7 +118,7 @@ $_SESSION['prijsTotaal'] = 0;
         if($winkelwagenEmpty == false){
         ?> <div id="bestelling_form">
             <form action="winkelwagen.php" method="post" class="width">
-            <button name="bestel" formaction="bestellen.php" id="bestel">bestellen</button>
+            <button name="bestel" formaction="bestellen.php" class="bestel">bestellen</button>
             <button type="submit" formaction="webshop.php" id="verder">verder winkelen</button>
             <button name="legen" id="legen" >winkelwagen legen</button>
             </form>
@@ -128,6 +127,7 @@ $_SESSION['prijsTotaal'] = 0;
         <?php 
         }else{
           echo "Het lijkt erop dat de winkelwagen leeg is.";
+          // class="bedankt" class="cleanbackground2"
         }
         if(isset($_POST['legen'])){
           header("location: winkelwagen.php");

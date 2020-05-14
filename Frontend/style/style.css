@@ -520,9 +520,14 @@ color: black;
   color: whitesmoke;
 }
 
-#bestel{
+.bestel{
   background-color: #65db05;
   color: whitesmoke;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: 'Trebuchet MS';
 }
 
 #verder{
@@ -559,8 +564,14 @@ color: black;
   width: 858px;
 }
 
-#bedankt{
+.bedankt{
   text-align: center;
   width: 858px;
   font-size: 30px;
+}
+
+.input{
+  height: 23px;
+  border-radius: 5px;
+  border: 1px solid black;
 }

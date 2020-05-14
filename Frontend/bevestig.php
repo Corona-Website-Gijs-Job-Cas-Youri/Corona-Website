@@ -35,10 +35,10 @@
         </ul>
       </div>
     </div>
-    <div id="site_content" class="cleanbackground2  ">
+    <div id="site_content" class="cleanbackground2">
     
       <div id="content">
-        <h1 id="bedankt">Bedankt voor uw bestelling!</h1>
+        <h1 class="bedankt">Bedankt voor uw bestelling!</h1>
         <div id="container2">
         <form action="bevestig.php">
         <button id="terug" formaction="index.php">Terug naar de website</button>
