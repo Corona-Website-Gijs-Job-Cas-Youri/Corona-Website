@@ -1,6 +1,8 @@
 <?php
 session_start();
-require('functies.php');
+require('functies.php'); ?>
+
+<?php
 
 $_SESSION['prijsTotaal'] = 0;
 ?>
@@ -126,8 +128,9 @@ $_SESSION['prijsTotaal'] = 0;
 
         <?php 
         }else{
-          echo "Het lijkt erop dat de winkelwagen leeg is.";
-          // class="bedankt" class="cleanbackground2"
+          ?> <div id="werk" class="bedankt cleanbackground2" >Het lijkt erop dat de winkelwagen leeg is.</div>
+            <!-- <div id="site_content" class="cleanbackground2"></div> -->
+          <?php
         }
         if(isset($_POST['legen'])){
           header("location: winkelwagen.php");
