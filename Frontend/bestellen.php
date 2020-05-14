@@ -14,7 +14,7 @@
   }
   if(isset($_SESSION['bestelling2'])){
   $sql_insert2 = "INSERT INTO producten(Prod_Naam, Prod_Prijs)
-    VALUES('{$_SESSION['aantal2']}', {$_SESSION['prijsTotaal2']})";
+    VALUES('{$_SESSION['product2']}', {$_SESSION['prijsTotaal2']})";
 
     $result2 = mysqli_query(OpenCon(), $sql_insert2);
   }
