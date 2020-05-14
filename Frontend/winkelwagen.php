@@ -1,8 +1,8 @@
-<?php 
-  session_start();
-  require('functies.php');
+<?php
+session_start();
+require('functies.php');
 
-  $_SESSION['prijsTotaal'] = 0;
+$_SESSION['prijsTotaal'] = 0;
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -31,9 +31,9 @@
           <li><a href="index.php">Home</a></li>
           <li><a href="bezigheden.php">Bezigheden</a></li>
           <li><a href="besmetting.php">Besmetting</a></li>
-          <li><a href="webshop.php">Webshop</a></li>
           <li><a href="risicogroep.php">Risicogroep</a></li>
           <li><a href="info.php">Informatie</a></li>
+          <li><a href="webshop.php">Webshop</a></li>
           <li class="selected"><a href="winkelwagen.php">Winkelwagen</a></li>
         </ul>
       </div>
@@ -142,9 +142,10 @@
       </div>
     </div>
     <div id="footer">
-    <p><a href="index.php">Home</a> | <a href="bezigheden.php">Bezigheden</a> | <a href="besmetting.php">Besmetting</a> | <a href="webshop.php">Webshop</a> | <a href="risicogroep.php">Risicogroep</a> | <a href="info.php">informatie</a></p>
+      <p><a href="index.php">Home</a> | <a href="bezigheden.php">Bezigheden</a> | <a href="besmetting.php">Besmetting</a> | <a href="webshop.php">Webshop</a> | <a href="risicogroep.php">Risicogroep</a> | <a href="info.php">informatie</a></p>
       <p>Copyright &copy; simple_light | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
     </div>
   </div>
 </body>
+
 </html>

@@ -23,9 +23,9 @@
           <li><a href="index.php">Home</a></li>
           <li><a href="bezigheden.php">Bezigheden</a></li>
           <li><a href="besmetting.php">Besmetting</a></li>
-          <li><a href="webshop.php">Webshop</a></li>
           <li class="selected"><a href="risicogroep.php">Risicogroep</a></li>
           <li><a href="info.php">Informatie</a></li>
+          <li><a href="webshop.php">Webshop</a></li>
           <li><a href="winkelwagen.php">Winkelwagen</a></li>
         </ul>
       </div>
