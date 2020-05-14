@@ -65,7 +65,7 @@
           <?php
           if(isset($_POST['toevoegen'])){
             $_SESSION['product2'] = "handschoenen";
-            $_SESSION['aantal2'] = $_POST['aantal'];
+            $_SESSION['bestelling2'] = $_POST['aantal'];
             $_SESSION['prijsTotaal2'] = 5 * $_POST['aantal'];
             $_SESSION['bestelling'] = 1;
 

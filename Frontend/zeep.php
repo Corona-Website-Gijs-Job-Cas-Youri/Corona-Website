@@ -69,7 +69,7 @@
           <?php
           if(isset($_POST['toevoegen'])){
             $_SESSION['product3'] = "zeep";
-            $_SESSION['aantal3'] = $_POST['aantal'];
+            $_SESSION['bestelling3'] = $_POST['aantal'];
             $_SESSION['prijsTotaal3'] = 5 * $_POST['aantal'];
             $_SESSION['bestelling'] = 1;
 

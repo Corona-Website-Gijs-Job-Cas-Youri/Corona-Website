@@ -31,7 +31,7 @@
           <li><a href="besmetting.php">Besmetting</a></li>
           <li><a href="risicogroep.php">Risicogroep</a></li>
           <li><a href="info.php">Informatie</a></li>
-          <li class="selected"><a href="webshop.php">Webshop</a></li>
+                    <li class="selected"><a href="webshop.php">Webshop</a></li>
           <li><a href="winkelwagen.php">Winkelwagen</a></li>
         </ul>
       </div>
@@ -67,7 +67,7 @@
           <?php 
           if(isset($_POST['toevoegen'])){
             $_SESSION['product1'] = "mondkapjes";
-            $_SESSION['aantal1'] = $_POST['aantal'];
+            $_SESSION['bestelling1'] = $_POST['aantal'];
             $_SESSION['prijsTotaal1'] = 5 * $_POST['aantal'];
             $_SESSION['bestelling'] = 1;
 
