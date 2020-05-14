@@ -26,13 +26,6 @@ if (isset($_POST['bestellen'])) {
 
 
 
-$aantal1 = $_POST['aantal1'];
-$aantal2 = $_POST['aantal2'];
-$aantal3 = $_POST['aantal3'];
-
-$_SESSION['bestelling1'] = $aantal1 + 0;
-$_SESSION['bestelling2'] = $aantal2 + 0;
-$_SESSION['bestelling3'] = $aantal3 + 0;
 
 
   $_SESSION['Email'] = $_POST['Email'];
