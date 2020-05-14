@@ -59,7 +59,7 @@
       </div>
       <h1 style="font-weight: bold">&euro;5,00</h1>
       <form method="post">
-        <input type="number" min="0" max="15" name="aantal" step="1"><button name="toevoegen">aan winkel wagen toevoegen</button>
+        <input type="number" min="0" max="15" name="aantal" step="1"><button name="toevoegen" class="verder">aan winkelwagen toevoegen</button>
       
       <div id="beschrijving"><p>Bijzonder geschikt tegen huidveroudering.
         <br> Met aromatische oliën.

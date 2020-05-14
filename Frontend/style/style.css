@@ -530,9 +530,14 @@ color: black;
   font-family: 'Trebuchet MS';
 }
 
-#verder{
+.verder{
   background-color: #2db8cd;
   color: whitesmoke;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  padding: 3px;
+  margin-left: 5px;
 }
 
 .width{
@@ -547,7 +552,7 @@ color: black;
   font-size: 110%;
 }
 
-#terug{
+.terug{
   text-align: center;
   border: none;
   border-radius: 5px;

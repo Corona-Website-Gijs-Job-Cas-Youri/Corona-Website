@@ -121,7 +121,7 @@ $_SESSION['prijsTotaal'] = 0;
         ?> <div id="bestelling_form">
             <form action="winkelwagen.php" method="post" class="width">
             <button name="bestel" formaction="bestellen.php" class="bestel">bestellen</button>
-            <button type="submit" formaction="webshop.php" id="verder">verder winkelen</button>
+            <button type="submit" formaction="webshop.php" class="verder">verder winkelen</button>
             <button name="legen" id="legen" >winkelwagen legen</button>
             </form>
            </div>

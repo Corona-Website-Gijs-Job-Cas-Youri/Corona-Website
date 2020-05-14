@@ -41,7 +41,7 @@
         <h1 class="bedankt">Bedankt voor uw bestelling!</h1>
         <div id="container2">
         <form action="bevestig.php">
-        <button id="terug" formaction="index.php">Terug naar de website</button>
+        <button class="terug" formaction="index.php">Terug naar de website</button>
         </form>
         </div>
         </div>
