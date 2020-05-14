@@ -128,8 +128,8 @@ $_SESSION['prijsTotaal'] = 0;
 
         <?php 
         }else{
-          ?> <div id="werk" class="bedankt cleanbackground2" >Het lijkt erop dat de winkelwagen leeg is.</div>
-            <!-- remove 300px background (cleanbackground) and keep the new one-->
+          ?> 
+              <div id="werk" class="bedankt cleanbackground2 center" >Het lijkt erop dat de winkelwagen leeg is.</div> 
           <?php
         }
         if(isset($_POST['legen'])){

@@ -460,7 +460,6 @@ color: black;
 
 .cleanbackground{
   background: rgb(250, 250, 250) !important;
-  height: 300px;
 
 }
 .cleanbackground2{
@@ -568,11 +567,17 @@ color: black;
 .bedankt{
   text-align: center;
   width: 858px;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .input{
   height: 23px;
   border-radius: 5px;
   border: 1px solid black;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
