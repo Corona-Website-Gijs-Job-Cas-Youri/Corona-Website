@@ -28,7 +28,8 @@
 
     $_SESSION['Email'] = $_POST['Email'];
 
-    $sql_insert = "INSERT INTO bestelling(Email, Handschoenen, Mondkapjes, Zeep, Tot_Prijs) VALUES('{$_SESSION['Email']}', '$result1', '$result2', '$result3', '{$_SESSION['prijsTotaal']}')";
+    $sql_insert = "INSERT INTO bestelling(Email, Handschoenen, Mondkapjes, Zeep, Tot_Prijs) 
+                    VALUES('{$_SESSION['Email']}', {$_SESSION['bestelling1']}, {$_SESSION['bestelling2']}, {$_SESSION['bestelling3']}, {$_SESSION['prijsTotaal']})";
 
                     $result = mysqli_query(OpenCon(), $sql_insert);
                     
