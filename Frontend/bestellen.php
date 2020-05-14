@@ -80,6 +80,7 @@
 
         <form method="post" action="bestellen.php">
 
+        <p>Email:</p>
         <input name="Email" type="text" style="margin-bottom: 10px"></input>
 
         <button name="bestellen">bestellen</button>
