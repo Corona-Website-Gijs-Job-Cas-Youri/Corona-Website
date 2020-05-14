@@ -61,7 +61,7 @@ $_SESSION['bestelling1'] = 0;
         </div>
         <h1 style="font-weight: bold">&euro;5,00</h1>
         <form method="post">
-          <input type="number" min="0" max="15" name="aantal"><button name="toevoegen">aan winkel wagen toevoegen</button>
+          <input type="number" min="0" max="15" name="aantal" step="1"><button name="toevoegen">aan winkel wagen toevoegen</button>
 
           <div id="beschrijving">
             <p>Dit mondkapje is geschikt voor elk gezichtstype en heeft 3 lagen met een goede bescherming tegen infecties.
