@@ -3,9 +3,6 @@ session_start();
 require('functies.php');
 
 $_SESSION['prijsTotaal'] = 0;
-$_SESSION['bestelling1'] = 0;
-$_SESSION['bestelling2'] = 0;
-$_SESSION['bestelling3'] = 0;
 ?>
 <!DOCTYPE HTML>
 <html>
