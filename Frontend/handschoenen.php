@@ -1,5 +1,6 @@
 <?php 
   session_start();
+
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -56,7 +57,7 @@
       </div>
       <h1 style="font-weight: bold">&euro;5,00</h1>
       <form method="post">
-        <input type="number" min="1" max="15" name="aantal"><button name="toevoegen">aan winkel wagen toevoegen</button>
+        <input type="number" min="0" max="15" name="aantal" step="1"><button name="toevoegen">aan winkel wagen toevoegen</button>
       
       <div id="beschrijving"><p>Sterke nitril wegwerphandschoenen van een soepel materiaal. <br>
         Voor een optimale bescherming met veel draagcomfort, een goede pasvorm en een goed tastgevoel.</p></div>
@@ -72,7 +73,7 @@
             header("location: winkelwagen.php");
           }
           ?>
-        </form>
+        </form>   
       </div>
     </div>
     <div id="footer">

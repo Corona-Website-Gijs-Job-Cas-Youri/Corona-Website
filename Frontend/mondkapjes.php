@@ -1,5 +1,5 @@
-<?php 
-  session_start();
+<?php
+session_start();
 ?>
 
 <!DOCTYPE HTML>
@@ -37,51 +37,57 @@
       </div>
     </div>
     <div id="site_content">
-    <div class="sidebar">
+      <div class="sidebar">
         <h1>Laatste Nieuws</h1>
         <h5>21-4-2020</h5>
         <p>Er zijn bijna geen landen meer waar er geen Covid 19 is, toch blijven mensen naar buiten gaan.<br /><a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">lees meer</a></p>
         <h1>STATISTIEKEN</h1>
         <ul>
-          <li>aantal besmetingen in nederland:<p id="nummer"> 33.405</p></li>
-          <li>aantal doden in nederland: <p id="nummer">3.751</p></li>
-          <li>aantal besmetingen wereld wijd: <p id="nummer">2.486.964</p></li>
+          <li>aantal besmetingen in nederland:<p id="nummer"> 33.405</p>
+          </li>
+          <li>aantal doden in nederland: <p id="nummer">3.751</p>
+          </li>
+          <li>aantal besmetingen wereld wijd: <p id="nummer">2.486.964</p>
+          </li>
           <li>aantal doden wereld wijd: <p id="nummer">170.418</li>
         </ul>
-        
+
       </div>
       <div id="content">
-      <div id="product">
-        <h1 style="text-align: center; font-size: 30px">mondkapjes</h1>
-        <img src="style/mondkapjes.jpg" alt="mondkapjes" style="width: 350px; height: 350px; padding-left: 100px"></img>
-      </div>
-      <h1 style="font-weight: bold">&euro;5,00</h1>
-      <form method="post">
-        <input type="number" min="1" max="15" name="aantal"><button name="toevoegen" >aan winkel wagen toevoegen</button>
+        <div id="product">
+          <h1 style="text-align: center; font-size: 30px">mondkapjes</h1>
+          <img src="style/mondkapjes.jpg" alt="mondkapjes" style="width: 350px; height: 350px; padding-left: 100px"></img>
+        </div>
+        <h1 style="font-weight: bold">&euro;5,00</h1>
+        <form method="post">
+          <input type="number" min="0" max="15" name="aantal" step="1"><button name="toevoegen">aan winkel wagen toevoegen</button>
 
-      <div id="beschrijving"><p>Dit mondkapje is geschikt voor elk gezichtstype en heeft 3 lagen met een goede bescherming tegen infecties. 
-                            Tevens bevat het een goede luchtdoorlatendheid door het gebruik van lichte materialen. Doordat warmte zich minder kan ophopen onder het masker,
-                            zijn er minder huidirritaties.</p></div>
-
+          <div id="beschrijving">
+            <p>Dit mondkapje is geschikt voor elk gezichtstype en heeft 3 lagen met een goede bescherming tegen infecties.
+              Tevens bevat het een goede luchtdoorlatendheid door het gebruik van lichte materialen. Doordat warmte zich minder kan ophopen onder het masker,
+              zijn er minder huidirritaties.</p>
           </div>
-          <?php 
-          if(isset($_POST['toevoegen'])){
-            $_SESSION['product1'] = "mondkapjes";
-            $_SESSION['bestelling1'] = $_POST['aantal'];
-            $_SESSION['prijsTotaal1'] = 5 * $_POST['aantal'];
-            $_SESSION['bestelling'] = 1;
 
-            header("location: winkelwagen.php");
-          }
-          
-          ?>
-        </form>
       </div>
-    </div>
-    <div id="footer">
-    <p><a href="index.php">Home</a> | <a href="bezigheden.php">Bezigheden</a> | <a href="besmetting.php">Besmetting</a> | <a href="webshop.php">Webshop</a> | <a href="risicogroep.php">Risicogroep</a> | <a href="info.php">informatie</a></p>
-      <p>Copyright &copy; simple_light | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
+      <?php
+      if (isset($_POST['toevoegen'])) {
+        $_SESSION['product1'] = "mondkapjes";
+        $_SESSION['bestelling1'] = $_POST['aantal'];
+        $_SESSION['prijsTotaal1'] = 5 * $_POST['aantal'];
+        $_SESSION['bestelling'] = 1;
+
+        header("location: winkelwagen.php");
+      }
+
+      ?>
+      </form>
     </div>
   </div>
+  <div id="footer">
+    <p><a href="index.php">Home</a> | <a href="bezigheden.php">Bezigheden</a> | <a href="besmetting.php">Besmetting</a> | <a href="webshop.php">Webshop</a> | <a href="risicogroep.php">Risicogroep</a> | <a href="info.php">informatie</a></p>
+    <p>Copyright &copy; simple_light | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
+  </div>
+  </div>
 </body>
+
 </html>
