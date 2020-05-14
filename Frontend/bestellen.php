@@ -75,20 +75,22 @@
         </ul>
       </div>
     </div>
-    <div id="site_content">
+    <div id="site_content" class="cleanbackground2">
     
       <div id="content">
+        <div id="container2">
 
       
 
-        <form method="post" action="bestellen.php">
+        <form class="bedankt" method="post" action="bestellen.php">
 
         <p>Email:</p>
-        <input name="Email" type="text" style="margin-bottom: 10px"></input>
+        <input class="input" name="Email" type="text" style="margin-bottom: 10px"></input>
 
-        <button name="bestellen">bestellen</button>
+        <button class="bestel" name="bestellen">bestellen</button>
 
         </form>
+      </div>
       </div>
       </div>
     </div>

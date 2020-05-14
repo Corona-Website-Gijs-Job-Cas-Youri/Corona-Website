@@ -463,16 +463,9 @@ color: black;
   height: 300px;
 
 }
-
-/* #winkelwagen{
-  text-align: center !important;
-  width: 858px;
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-} */
+.cleanbackground2{
+  background: rgb(250, 250, 250) !important;
+}
 
 #container{
   display: flex;
@@ -497,5 +490,88 @@ color: black;
 
 .border{
   border: 1px solid black;
+}
+
+.borderrij{
+  border: 0px;
+}
+
+.borderrijtop{
+  border: 0px;
   border-top: 1px solid black;
+}
+
+#bestelling_form{
+  display: flex;
+  justify-content: center;
+  width: 312px;
+}
+
+#bestelling_form button{
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: 'Trebuchet MS';
+}
+
+#legen{
+  background-color: #db0404;
+  color: whitesmoke;
+}
+
+.bestel{
+  background-color: #65db05;
+  color: whitesmoke;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: 'Trebuchet MS';
+}
+
+#verder{
+  background-color: #2db8cd;
+  color: whitesmoke;
+}
+
+.width{
+  width: 312px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.totaal{
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 110%;
+}
+
+#terug{
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #e0e0e0;
+  font-family: 'Trebuchet MS';
+  align-self: center;
+}
+
+#container2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 858px;
+}
+
+.bedankt{
+  text-align: center;
+  width: 858px;
+  font-size: 30px;
+}
+
+.input{
+  height: 23px;
+  border-radius: 5px;
+  border: 1px solid black;
 }
