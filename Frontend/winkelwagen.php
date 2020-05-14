@@ -38,16 +38,18 @@
         </ul>
       </div>
     </div>
-    <div id="site_content">
+    <div id="site_content" class="cleanbackground">
     
       <div id="content">
 
-      <div id="winkelwagen">
+      <div id="container">
+      <div id="winkelwagen" >
         <?php 
         if(!isset($_SESSION['bestelling'])){
 
         }else{
           ?> 
+          <div id="table_wrap">
           <table>
             <tr>
               <th>product naam</th>
@@ -91,30 +93,51 @@
             </tr>
             <?php 
             }
+
+              if(isset($_SESSION['bestelling'])){
+            ?>
+            <tr>
+              <td class="bold" colspan="2" > Totaal:</td>
+              <td class="border">&euro;<?php echo $_SESSION['prijsTotaal'] ?></td>
+            </tr>
+            <?php 
+            }
             
             ?>
           </table>
-
-          <h3>totaal: &euro;<?php echo $_SESSION['prijsTotaal'] ?></h3>
+          </div>
   
           <?php
         }
-        ?>
-        <form action="winkelwagen.php" method="post">
-        <button name="bestel" formaction="bestellen.php">bestellen</button>
-        <button type="submit" formaction="webshop.php">verder winkelen</button>
-        <button name="button">winkel wagen legen</button>
+        if(!isset($_SESSION['bestelling1']) && !isset($_SESSION['bestelling2']) && !isset($_SESSION['bestelling3'])){
+          //die("Uw winkelwagen is leeg.");
+          $winkelwagenEmpty = true;
+        }else{
+          $winkelwagenEmpty = false;
+        }
+
+        if($winkelwagenEmpty == false){
+        ?> <div id="besttelling_form">
+            <form action="winkelwagen.php" method="post">
+            <button name="bestel" formaction="bestellen.php">bestellen</button>
+            <button type="submit" formaction="webshop.php">verder winkelen</button>
+            <button name="button">winkel wagen legen</button>
+            </form>
+           </div>
 
         <?php 
-
+        }else{
+          echo "Het lijkt erop dat de winkelwagen leeg is.";
+        }
         if(isset($_POST['button'])){
           header("location: winkelwagen.php");
           session_destroy(); 
        }
-        ?>
 
-        </form>
+      
+        ?>
         
+      </div>
       </div>
       </div>
     </div>
