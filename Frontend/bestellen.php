@@ -32,7 +32,7 @@
     $sql_insert = "INSERT INTO bestelling(Email, Handschoenen, Mondkapjes, Zeep, Tot_Prijs) 
                     VALUES('{$_SESSION['Email']}', {$_SESSION['bestelling1']}, {$_SESSION['bestelling2']}, {$_SESSION['bestelling3']}, {$_SESSION['prijsTotaal']})";
 
-                    $result = mysqli_query((OpenCon()), $sql_insert);
+                    $result = mysqli_query(OpenCon(), $sql_insert);
                     
 
                     header("location: bevestig.php");
