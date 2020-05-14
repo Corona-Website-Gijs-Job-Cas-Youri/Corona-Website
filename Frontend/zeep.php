@@ -1,7 +1,5 @@
 <?php 
   session_start();
-  $_SESSION['bestelling3'] = 0;
-
 ?>
 <!DOCTYPE HTML>
 <html>
