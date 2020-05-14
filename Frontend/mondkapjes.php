@@ -73,7 +73,7 @@ $_SESSION['bestelling1'] = 0;
       <?php
       if (isset($_POST['toevoegen'])) {
         $_SESSION['product1'] = "mondkapjes";
-        $_SESSION['bestelling1'] = + $_POST['aantal'];
+        $_SESSION['bestelling1'] = $_SESSION['bestelling1'] + $_POST['aantal'];
         $_SESSION['prijsTotaal1'] = 5 * $_POST['aantal'];
         $_SESSION['bestelling'] = 1;
 
