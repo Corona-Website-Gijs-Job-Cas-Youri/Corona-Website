@@ -108,7 +108,7 @@ $_SESSION['prijsTotaal'] = 0;
 
             <?php
             }
-            if (!isset($_SESSION['bestelling1']) && !isset($_SESSION['bestelling2']) && !isset($_SESSION['bestelling3'])) {
+            if (!isset($_SESSION['bestelling1']) && 'bestelling1' == '0' && !isset($_SESSION['bestelling2']) && !isset($_SESSION['bestelling3'])) {
               $winkelwagenEmpty = true;
             } else {
               $winkelwagenEmpty = false;
