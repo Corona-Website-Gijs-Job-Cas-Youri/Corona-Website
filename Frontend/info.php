@@ -36,7 +36,7 @@
             <div class="sidebar">
                 <h1>Laatste Nieuws</h1>
                 <h5>21-4-2020</h5>
-                <p>Er zijn bijna geen landen meer waar er geen Covid 19 is, toch blijven mensen naar buiten gaan.<br /><a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">lees meer</a></p>
+                <p>Er zijn bijna geen landen meer waar er geen Covid 19 is, toch blijven mensen naar buiten gaan.<br /><a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" target="_blank">lees meer</a></p>
                 <h1>STATISTIEKEN</h1>
                 <ul>
                     <li>aantal besmetingen in Nederland:<p id="nummer"> 33.405</p>
@@ -159,7 +159,7 @@
                     Als je je beter voelt en 24 uur lang geen gezondheidsklachten hebt. Dat betekent: geen koorts, geen neusverkoudheid en niet hoesten.
                 </p>
                 <p>
-                    voor meer informatie klik <a href="https://www.rivm.nl/coronavirus-covid-19/vragen-antwoorden#eigengezondheid">dit</a> linkje.
+                    voor meer informatie klik <a href="https://www.rivm.nl/coronavirus-covid-19/vragen-antwoorden#eigengezondheid" target="_blank">dit</a> linkje.
                 </p>
             </div>
         </div>
