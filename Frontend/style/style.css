@@ -460,7 +460,6 @@ color: black;
 
 .cleanbackground{
   background: rgb(250, 250, 250) !important;
-  height: 300px;
 
 }
 .cleanbackground2{
@@ -531,9 +530,14 @@ color: black;
   font-family: 'Trebuchet MS';
 }
 
-#verder{
+.verder{
   background-color: #2db8cd;
   color: whitesmoke;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  padding: 3px;
+  margin-left: 5px;
 }
 
 .width{
@@ -548,7 +552,7 @@ color: black;
   font-size: 110%;
 }
 
-#terug{
+.terug{
   text-align: center;
   border: none;
   border-radius: 5px;
@@ -568,11 +572,17 @@ color: black;
 .bedankt{
   text-align: center;
   width: 858px;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .input{
   height: 23px;
   border-radius: 5px;
   border: 1px solid black;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
