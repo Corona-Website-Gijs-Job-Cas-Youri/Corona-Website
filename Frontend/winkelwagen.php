@@ -1,14 +1,11 @@
 <?php
 session_start();
 require('functies.php'); ?>
-
 <?php
-
 $_SESSION['prijsTotaal'] = 0;
 ?>
 <!DOCTYPE HTML>
 <html>
-
 <head>
   <title>Winkelwagen</title>
   <meta name="description" content="website description" />
@@ -16,7 +13,6 @@ $_SESSION['prijsTotaal'] = 0;
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
   <link rel="stylesheet" type="text/css" href="style/style.css" />
 </head>
-
 <body>
   <div id="main">
     <div id="header">
@@ -43,12 +39,10 @@ $_SESSION['prijsTotaal'] = 0;
     <div id="site_content" class="cleanbackground">
     
       <div id="content">
-
       <div id="container">
       <div id="winkelwagen" >
         <?php 
         if(!isset($_SESSION['bestelling'])){
-
         }else{
           ?> 
           <div id="table_wrap">
@@ -95,7 +89,6 @@ $_SESSION['prijsTotaal'] = 0;
             </tr>
             <?php 
             }
-
               if(isset($_SESSION['bestelling'])){
             ?>
             <tr>
@@ -111,12 +104,11 @@ $_SESSION['prijsTotaal'] = 0;
   
           <?php
         }
-        if(!isset($_SESSION['bestelling1'])&& !isset($_SESSION['bestelling2']) && !isset($_SESSION['bestelling3'])){
+        if(!isset($_SESSION['bestelling1']) && !isset($_SESSION['bestelling2']) && !isset($_SESSION['bestelling3'])){
           $winkelwagenEmpty = true;
         }else{
           $winkelwagenEmpty = false;
         }
-
         if($winkelwagenEmpty == false){
         ?> <div id="bestelling_form">
             <form action="winkelwagen.php" method="post" class="width">
@@ -136,7 +128,6 @@ $_SESSION['prijsTotaal'] = 0;
           header("location: winkelwagen.php");
           session_destroy(); 
        }
-
       
         ?>
         
@@ -150,5 +141,4 @@ $_SESSION['prijsTotaal'] = 0;
     </div>
   </div>
 </body>
-
 </html>

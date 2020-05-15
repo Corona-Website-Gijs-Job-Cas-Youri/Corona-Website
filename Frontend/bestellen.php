@@ -24,18 +24,14 @@ if (isset($_POST['bestellen'])) {
   //   $result3 = mysqli_query(OpenCon(), $sql_insert3);
   // }
 
-      $b1 = 0 + $_SESSION['bestelling1'];
-      $b2 = 0 + $_SESSION['bestelling2'];
-      $b3 = 0 + $_SESSION['bestelling3'];
+
 
 
 
   $_SESSION['Email'] = $_POST['Email'];
 
   $sql_insert = "INSERT INTO bestelling(Email, Handschoenen, Mondkapjes, Zeep, Tot_Prijs) 
-                    VALUES('{$_SESSION['Email']}', $b1, $b2, $b3 , {$_SESSION['prijsTotaal']})";
-
-                    
+                    VALUES('{$_SESSION['Email']}', {$_SESSION['bestelling1']}, {$_SESSION['bestelling2']}, {$_SESSION['bestelling3']}, {$_SESSION['prijsTotaal']})";
 
   $result = mysqli_query(OpenCon(), $sql_insert);
 
