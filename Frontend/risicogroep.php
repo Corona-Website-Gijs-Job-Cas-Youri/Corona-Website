@@ -79,7 +79,7 @@
           <h2 style="text-align: center">Aantal overledenen per leeftijd en geslacht</h2>
           <img src="style\Leeftijd-en-geslacht-overledenen.png" alt="grafiek overledenen"></img>
           </div>
-          <p>Voor meer informatie, <a href="https://www.nu.nl/coronavirus/6039163/wanneer-val-je-onder-de-risicogroep-voor-het-coronavirus.html?redirect=1">klik hier.</a></p>
+          <p>Voor meer informatie, <a href="https://www.nu.nl/coronavirus/6039163/wanneer-val-je-onder-de-risicogroep-voor-het-coronavirus.html?redirect=1" target="_blank">klik hier.</a></p>
       </div>
       </div>
     </div>
