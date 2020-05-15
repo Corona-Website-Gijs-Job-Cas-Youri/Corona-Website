@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION['aantal1'] = 0;
+//$_SESSION['aantal1'] = 0;
 ?>
 
 <!DOCTYPE HTML>
@@ -73,8 +73,8 @@ $_SESSION['aantal1'] = 0;
       <?php
       if (isset($_POST['toevoegen'])) {
         $_SESSION['product1'] = "mondkapjes";
-        $_SESSION['bestelling1'] = $_POST['aantal1'];
-        $_SESSION['prijsTotaal1'] = 5 * $_POST['aantal1'];
+        $_SESSION['bestelling1'] = $_POST['aantal'];
+        $_SESSION['prijsTotaal1'] = 5 * $_POST['aantal'];
         $_SESSION['bestelling'] = 1;
 
         header("location: winkelwagen.php");
