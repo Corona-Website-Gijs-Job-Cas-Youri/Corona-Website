@@ -1,6 +1,6 @@
 <?php 
   session_start();
-  $_SESSION['aantal2'] = 0;
+  $_SESSION['bestelling2'] = 0;
 ?>
 <!DOCTYPE HTML>
 <html>
