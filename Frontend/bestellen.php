@@ -32,7 +32,7 @@ if (isset($_POST['bestellen'])) {
 
   $_SESSION['Email'] = $_POST['Email'];
 
-  $sql_insert = "INSERT INTO bestelling(Email, Handschoenen, Mondkapjes, Zeep, Tot_Prijs) 
+  $sql_insert = "INSERT INTO bestelling(Email, Mondkapjes, Handschoenen, Zeep, Tot_Prijs) 
                     VALUES('{$_SESSION['Email']}', $b1, $b2, $b3 , {$_SESSION['prijsTotaal']})";
 
   $result = mysqli_query(OpenCon(), $sql_insert);
